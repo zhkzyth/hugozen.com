@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="description" content="a place for creators"/>
+
+
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="hugozen's thought">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.2.x" />
+
+
+
+<link rel="canonical" href="http://hugozen.com/page/4/"/>
+
+
+<meta name="description" content="a place for creators">
+<meta property="og:type" content="website">
+<meta property="og:title" content="hugozen's thought">
+<meta property="og:url" content="http://hugozen.com/page/4/index.html">
+<meta property="og:site_name" content="hugozen's thought">
+<meta property="og:description" content="a place for creators">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hugozen's thought">
+<meta name="twitter:description" content="a place for creators">
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=2.2.x" />
+
+
+
+  <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
+
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    search: {
+      enable: true,
+      path: "/search.xml",
+    },
+    navbar: {
+      enable: true
+    },
+    fancybox: {
+      enable: true
+    },
+    toc: {
+      enable: true
+    },
+  };
+</script>
+
+
+
+  
+
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-93030964-1', 'auto');
+        ga('send', 'pageview');
+  </script>
+
+
+
+    <title> hugozen's thought </title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header id="header" class="header"><div class="logo-wrapper">
+  <a href="/." class="logo">hugozen's thought</a>
+</div>
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/">
+            
+            
+              Home
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/archives/">
+            
+            
+              Archives
+            
+          </a>
+        </li>
+      
+      
+        <li class="menu-search">
+          <form>
+            <i class="iconfont icon-search" id="open-search"></i>
+            <input type="text" class="search-input" id="search-input" />
+            <i class="iconfont icon-close" id="close-search"></i>
+          </form>
+        </li>
+      
+    </ul>
+  
+</nav>
+
+<div class="mobile-navbar">
+  <div class="mobile-header">
+    <div class="mobile-header-logo">
+      <a href="/." class="logo">hugozen's thought</a>
+    </div>
+
+    <div class="mobile-header-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <nav class="mobile-menu">
+    
+      <a class="mobile-menu-item" href="/">
+        
+        
+          Home
+        
+      </a>
+    
+      <a class="mobile-menu-item" href="/archives/">
+        
+        
+          Archives
+        
+      </a>
+    
+  </nav>
+</div>
+      </header>
+
+      <main id="main" class="main">
+        <div class="content-wrapper">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts">
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          <a class="post-link" href="/2016/08/14/2016-08-14-things-i-learn-from-scrapy/">things i learn from scrapy</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Aug 14, 2016
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+          
+        
+
+        
+          <p>Early this month, i used <a href="http://doc.scrapy.org/">scrapy</a> to write spiders.And I won’t say that i use almost 2-3 hours to read the docs again, so i can get familiar with it for how it working.</p>
+<p>But i just had written same code one year ago.</p>
+<p>It’s just amazing how people often forget what they have done.And i think to write down the architecture of it would be a great thing for me, or for a better me. =)</p>
+<p>So, how a spider work?</p>
+<p>Let’s take a look at <a href="http://doc.scrapy.org/">scrapy</a> one.</p>
+<p><img src="http://doc.scrapy.org/en/latest/_images/scrapy_architecture.png" alt="scrapy architecture"></p>
+<p>There are 4 parts for <a href="http://doc.scrapy.org/">Scrapy</a> and a core engine in it.</p>
+<p>In general, when you crawl a website, a index url is needed.</p>
+<p>First, start the core <code>Scrapy Engin</code>, which is built on <a href="http://doc.scrapy.org/"><code>Twisted</code></a> framework.It connect the 4 components, and transfer messages in specific directions.</p>
+<p>Second, we send the index url to <code>Downloader</code>, which download the page.</p>
+<p>Then, the <code>Spiders</code> come in, grape all the things you want, like link, images, content and so on.If the spider got new links, it just sends them to the <code>Scheduler</code> part, preparing for the next new crawling task.</p>
+<p>By sending the new links to <code>Scheduler</code>, the <code>Spiders</code> part also send stuffs like content to <code>Item Pipeline</code>.In the <code>Item Pipeline</code> part, raw content is being refactored and stored in db like mysql.</p>
+<p>So, what <a href="http://doc.scrapy.org/">scrapy</a> teaches me here?</p>
+          <div class="read-more">
+            <a href="/2016/08/14/2016-08-14-things-i-learn-from-scrapy/" class="read-more-link">Read more..</a>
+          </div>
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          <a class="post-link" href="/2016/08/14/2016-08-14-good-practice-for-storing-time-related-objs-in-mysql-with-python/">good practice for storing time related objs in mysql with python</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Aug 14, 2016
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+
+        
+          <p>I recently wrote a spider for jobs with the <a href="http://scrapy.org/" target="_blank" rel="external">scrapy</a> framework, and stored all my items in mysql.</p>
+<p>But here the problem comes. If you try to use timestamp type in mysql, several traps may be concerned.</p>
+<p>First, how the timestamp being interpreted is affected by your connection timezone.If you do not specify, it may use the mysql server one.But who knows what is the default one.</p>
+<p>Second, your mysql client in python layer may not support <code>time_zone</code> param, which is available in <a href="https://dev.mysql.com/doc/connector-python/en/connector-python-connectargs.html" target="_blank" rel="external">mysql c api</a>.Some libraries like <code>MySQL-python==1.2.5</code> just not support it.<br>So, if you want to change connection timezone, you may have to specify it explicitly on every sql query.</p>
+<p>Third, your mysql database may not be controlled by you, so you would be better to change your logic code timezone.</p>
+<p>As for me, i would just use <code>INT</code> for all my time related data, and represent them when necessary.</p>
+<p>So, use it explicitly, or just don’t use it.</p>
+<p>Or, even better, see <a href="http://stackoverflow.com/questions/19023978/should-mysql-have-its-timezone-set-to-utc" target="_blank" rel="external">discussions</a> on ST.In general,just set your db timezone to UTC, and use local timezone on your logical layers.</p>
+
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          <a class="post-link" href="/2014/03/12/2014-03-12-StackContext-in-tornado/">StackContext in Tornado</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Mar 12, 2014
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+          
+        
+
+        
+          <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>最近一直在读tornado的代码，大概是看懂了骨架。关于结构的部分，google一下应该会有比较多的分析，我主要想讲下在tornado/stack_context.py文件里面的StackContext类的作用。</p>
+<h2 id="StackContext是什么"><a href="#StackContext是什么" class="headerlink" title="StackContext是什么"></a>StackContext是什么</h2><p>StackContext从字面意义来说，翻译过来，就是“堆栈上下文”。拆开来看，就是用“堆栈”这种数据结构，保存“上下文”。</p>
+          <div class="read-more">
+            <a href="/2014/03/12/2014-03-12-StackContext-in-tornado/" class="read-more-link">Read more..</a>
+          </div>
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          <a class="post-link" href="/2014/01/06/2014-01-06-a-dht-crawler-in-python/">a dht crawler in python</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Jan 6, 2014
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+          
+        
+
+        
+          <p>I recently write <a href="https://github.com/zhkzyth/BT-Share">a dht crawler</a> in python.</p>
+<p>What a <a href="http://www.bittorrent.org/beps/bep_0005.html">dht</a>?well,you can think of it as a protocol as we treated the bt.<br>And i am not gona tell you that i can’t understand it before i read <a href="https://github.com/gsko/mdht">the source code in python</a> that implement it.<br>LOL…It is the truth, the paper sometimes is just hard to read.</p>
+<p>I call it the “bt-share”, meaning that it provide the seeds search service for people.
+          <div class="read-more">
+            <a href="/2014/01/06/2014-01-06-a-dht-crawler-in-python/" class="read-more-link">Read more..</a>
+          </div>
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          <a class="post-link" href="/2013/08/11/2013-08-11-write-your-asm/">write your asm code</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Aug 11, 2013
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+          
+        
+
+        
+          <p>最近对“底层”着迷了起来，找了一本<a href="http://book.douban.com/subject/1091718/">深入理解计算机系统</a>和王爽的<a href="http://book.douban.com/subject/1215178/">汇编语言</a>，开始啃了起来。</p>
+<p>其实大学的时候也上过汇编的课，而且是用那本异常坑爹的<a href="http://book.douban.com/subject/1091718/">IBM80X86</a>，上了一个学期的课，还不如我这两个礼拜啃的汇编。</p>
+<p>汇编语言其实一点都不底层，只是平时写脚本写多了，不适应罢了。<br>
+          <div class="read-more">
+            <a href="/2013/08/11/2013-08-11-write-your-asm/" class="read-more-link">Read more..</a>
+          </div>
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          <a class="post-link" href="/2013/07/28/2013-07-28-the-big-django/">The big django</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Jul 28, 2013
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+          
+        
+
+        
+          <p>我总是有种冲动要把一个框架给撸一遍才happy，但我发现这样把自己累得半死，还吸收不良……<br>特别是当我遇到了神奇的Django，她的完备，资料齐全，开发方便，社区活跃，让我很high得撸了好几个月…..好吧，其实是项目需要…..</p>
+<p>但就像有些人说的一样，当一个框架的文档完备到让人发紫的时候，是不是也意味着他很难改变？<br>额，有点，Django给我的感觉是，开发的程序猿是来写配置文件的，已经脱离了传统意义上的开发。那种感觉，<br>就像你去写rails一样，一切都安排好了，按着套路去填就好了。</p>
+<p>吐槽完了，其实我是来记笔记的……</p>
+<h2 id="网文"><a href="#网文" class="headerlink" title="网文"></a>网文</h2><ul>
+<li>观django大局类型的<ul>
+<li><a href="http://www.crazyant.net/2012/08/24/%E5%AF%B9django%E6%A1%86%E6%9E%B6%E6%9E%B6%E6%9E%84%E5%92%8Crequestresponse%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B%E7%9A%84%E5%88%86%E6%9E%90/">对Django框架架构和Request/Reponse处理流程的分析</a></li>
+</ul>
+</li>
+<li>细节深入浅出型<ul>
+<li><a href="http://www.cnblogs.com/pythoner/archive/2011/07/30/2121597.html">Django源码解析</a></li>
+</ul>
+</li>
+</ul>
+          <div class="read-more">
+            <a href="/2013/07/28/2013-07-28-the-big-django/" class="read-more-link">Read more..</a>
+          </div>
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          <a class="post-link" href="/2013/07/24/2013-07-24-webpy-cherryServer-analytics/">webpy-cherryServer-analytics</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Jul 24, 2013
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+          
+        
+
+        
+          <h2 id="Introdcution"><a href="#Introdcution" class="headerlink" title="Introdcution"></a>Introdcution</h2><p>So you want to how <a href="http://webpy.org">web.py</a> works?</p>
+<p>In this article,i will walk through the web.py’s simple server,which is adopted from <a href="http://www.cherrypy.org/">CherryPy</a>.</p>
+<h2 id="Things-you-need-to-know"><a href="#Things-you-need-to-know" class="headerlink" title="Things you need to know"></a>Things you need to know</h2><ul>
+<li>read some stuff about the technical terms<ul>
+<li><a href="http://www.ietf.org/rfc/rfc3875">cgi</a></li>
+<li><a href="http://www.python.org/dev/peps/pep-0333/">wsgi</a>(and its implementation,<a href="http://uwsgi-docs.readthedocs.org/en/latest/">uswgi</a>)</li>
+<li><a href="http://tools.ietf.org/html/rfc2616">http specification</a></li>
+</ul>
+</li>
+</ul>
+          <div class="read-more">
+            <a href="/2013/07/24/2013-07-24-webpy-cherryServer-analytics/" class="read-more-link">Read more..</a>
+          </div>
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          <a class="post-link" href="/2012/12/02/2012-12-02-the-little-scheme/">the little scheme</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Dec 2, 2012
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+          
+        
+
+        
+          <h2 id="Introdcution"><a href="#Introdcution" class="headerlink" title="Introdcution"></a>Introdcution</h2><p>scheme, a dialect of lisp.</p>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ul>
+<li><p>The law of Car<br>  The primitive <code>car</code> is defined only for non-empty lists.The <code>cdr</code> of any nonempty list is always another list.</p>
+</li>
+<li><p>The law of Cons<br>  The primitive <code>cons</code> takes two arguments.The second arugument to <code>cons</code> must be a list.The result is a list.</p>
+</li>
+<li><p>The law of Null?<br>  The primitive <code>null?</code> is defined only for lists.</p>
+          <div class="read-more">
+            <a href="/2012/12/02/2012-12-02-the-little-scheme/" class="read-more-link">Read more..</a>
+          </div>
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          <a class="post-link" href="/2012/11/22/2012-11-22-my-first-udacity-cource/">my first udacity cource</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Nov 22, 2012
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+
+        
+          <p>so it’s my second article written in english~greate!!!</p>
+<p>i recently take an online course on udacity,use python to write a search engine~</p>
+<p>not just awesome,but it tell me that how such monster like google being built.and i love pytho!</p>
+<p>it showes that code course could be tought in this way,and the online edu interaction could play<br>like this…</p>
+<p>so ,here is the link<del>and i wonder how many guys would do the final homework.would find a time to place the little search code on GAE,and make a gui for it</del>~</p>
+<p>if you come from china,why not go to the v2ex to share your learing experince with geeks….</p>
+<p>find the course on <a href="http://www.udacity.com/" target="_blank" rel="external">udacity</a>, keep learing .</p>
+
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          <a class="post-link" href="/2012/11/22/2012-11-22-why-and-how-in-lisp/">why and how in lisp</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Nov 22, 2012
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+          
+        
+
+        
+          <p>心血来潮，看起了lisp。起因是我太寂寞了，想找些函数式语言，来打发有强迫症的自己。</p>
+<p>当然了，原因不只这么简单，更重要的是，我想去了解函数式语言的起源，或者，写一个<a href="http://stackoverflow.com/questions/1669/learning-to-write-a-compiler">自己的编译器</a>玩玩也不错.</p>
+<p>还有，就是找到函数式语言本质的东西，而不是游走在猛蛇、砖石的门外，不得深入，再深入。</p>
+<p>每个周六日，都是我的外遇日，因为我终于有两个完整的日子，去陪我这两个小情人了。</p>
+<p>人说程序员是多情的，这倒是真的。只是我还算专一，至今仍泡在函数式编程的圈子里。<br>
+          <div class="read-more">
+            <a href="/2012/11/22/2012-11-22-why-and-how-in-lisp/" class="read-more-link">Read more..</a>
+          </div>
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    
+      <a class="prev" href="/page/3/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text">Prev</span>
+      </a>
+    
+    
+      <a class="next" href="/page/5/">
+        <span class="next-text">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+
+          </div>
+          
+        </div>  
+      </main>
+
+      <footer id="footer" class="footer">
+
+  <div class="social-links">
+    
+      
+        
+          <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  </div>
+
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://hexo.io/">Hexo</a>
+  </span>
+  
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/ahonn/hexo-theme-even">Even</a>
+  </span>
+
+  <span class="copyright-year">
+    
+    &copy; 
+     
+      2015 - 
+    
+    2017
+
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">hugozen</span>
+  </span>
+</div>
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+
+    
+
+
+    
+  
+
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+    <script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
+  
+
+    <script type="text/javascript" src="/js/src/even.js?v=2.2.x"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=2.2.x"></script>
+
+  </body>
+</html>

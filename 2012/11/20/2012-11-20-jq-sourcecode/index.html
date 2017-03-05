@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="description" content="jq-sourceCode"/>
+
+
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="hugozen's thought">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.2.x" />
+
+
+
+<link rel="canonical" href="http://hugozen.com/2012/11/20/2012-11-20-jq-sourcecode/"/>
+
+
+<meta name="description" content="我想没什么比阅读john Resig的JQ库更让人觉得亲切的了。
+从一开始接触js，到做一个小小的demo，最后做一些面向单页app的应用，jq库这个熟悉而又陌生的脚手架一直陪伴着我们。
+而我总是会有一种阅读的冲动，每次遇到不懂的东西，我想起的第一个念头，不是怎么用，而是，它怎么实现的。于是，你就开始折腾各种框架了，不是么？
+那种拨开眼前迷雾的感觉，那种看得真切的感觉，是前所未有的快乐，也许，那就">
+<meta property="og:type" content="article">
+<meta property="og:title" content="jq-sourceCode">
+<meta property="og:url" content="http://hugozen.com/2012/11/20/2012-11-20-jq-sourcecode/index.html">
+<meta property="og:site_name" content="hugozen's thought">
+<meta property="og:description" content="我想没什么比阅读john Resig的JQ库更让人觉得亲切的了。
+从一开始接触js，到做一个小小的demo，最后做一些面向单页app的应用，jq库这个熟悉而又陌生的脚手架一直陪伴着我们。
+而我总是会有一种阅读的冲动，每次遇到不懂的东西，我想起的第一个念头，不是怎么用，而是，它怎么实现的。于是，你就开始折腾各种框架了，不是么？
+那种拨开眼前迷雾的感觉，那种看得真切的感觉，是前所未有的快乐，也许，那就">
+<meta property="og:updated_time" content="2017-03-05T02:25:12.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="jq-sourceCode">
+<meta name="twitter:description" content="我想没什么比阅读john Resig的JQ库更让人觉得亲切的了。
+从一开始接触js，到做一个小小的demo，最后做一些面向单页app的应用，jq库这个熟悉而又陌生的脚手架一直陪伴着我们。
+而我总是会有一种阅读的冲动，每次遇到不懂的东西，我想起的第一个念头，不是怎么用，而是，它怎么实现的。于是，你就开始折腾各种框架了，不是么？
+那种拨开眼前迷雾的感觉，那种看得真切的感觉，是前所未有的快乐，也许，那就">
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=2.2.x" />
+
+
+
+  <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
+
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    search: {
+      enable: true,
+      path: "/search.xml",
+    },
+    navbar: {
+      enable: true
+    },
+    fancybox: {
+      enable: true
+    },
+    toc: {
+      enable: true
+    },
+  };
+</script>
+
+
+
+  
+
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-93030964-1', 'auto');
+        ga('send', 'pageview');
+  </script>
+
+
+
+    <title> jq-sourceCode · hugozen's thought </title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header id="header" class="header"><div class="logo-wrapper">
+  <a href="/." class="logo">hugozen's thought</a>
+</div>
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/">
+            
+            
+              Home
+            
+          </a>
+        </li>
+      
+        <li class="menu-item">
+          <a class="menu-item-link" href="/archives/">
+            
+            
+              Archives
+            
+          </a>
+        </li>
+      
+      
+        <li class="menu-search">
+          <form>
+            <i class="iconfont icon-search" id="open-search"></i>
+            <input type="text" class="search-input" id="search-input" />
+            <i class="iconfont icon-close" id="close-search"></i>
+          </form>
+        </li>
+      
+    </ul>
+  
+</nav>
+
+<div class="mobile-navbar">
+  <div class="mobile-header">
+    <div class="mobile-header-logo">
+      <a href="/." class="logo">hugozen's thought</a>
+    </div>
+
+    <div class="mobile-header-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <nav class="mobile-menu">
+    
+      <a class="mobile-menu-item" href="/">
+        
+        
+          Home
+        
+      </a>
+    
+      <a class="mobile-menu-item" href="/archives/">
+        
+        
+          Archives
+        
+      </a>
+    
+  </nav>
+</div>
+      </header>
+
+      <main id="main" class="main">
+        <div class="content-wrapper">
+          <div id="content" class="content">
+            
+  
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          jq-sourceCode
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Nov 20, 2012
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        <p>我想没什么比阅读john Resig的JQ库更让人觉得亲切的了。</p>
+<p>从一开始接触js，到做一个小小的demo，最后做一些面向单页app的应用，jq库这个熟悉而又陌生的脚手架一直陪伴着我们。</p>
+<p>而我总是会有一种阅读的冲动，每次遇到不懂的东西，我想起的第一个念头，不是怎么用，而是，它怎么实现的。于是，你就开始折腾各种框架了，不是么？</p>
+<p>那种拨开眼前迷雾的感觉，那种看得真切的感觉，是前所未有的快乐，也许，那就叫做思考的乐趣吧。<br><a id="more"></a></p>
+<p>##为什么阅读<br>当然了，这个世界上，js库多的是，jq并不是最优秀的那个。我阅读的原因是：</p>
+<ul>
+<li>API文档详细清晰</li>
+<li>JQ写得很优雅（可以参考资料那一节的书籍推）</li>
+<li>JQ库使用简单，社区人多，万一读不懂可以请教前辈</li>
+<li>JQ库特有的对浏览器兼容，可以了解到很多浏览器的兼容问题</li>
+<li>大部分的库都类似的，可以精读一个，以通其他</li>
+<li>项目中大量运用到这个库，是项目的基础组件（这个倒是很实际的XD）</li>
+</ul>
+<p>##怎么阅读</p>
+<ul>
+<li>阅读源码，写注释</li>
+<li>看官网的API</li>
+<li>写demo,大量的demo!</li>
+<li>写源码分析</li>
+<li>看别人的分析<ul>
+<li><a href="http://www.cnblogs.com/nuysoft/archive/2011/11/14/2248023.html" target="_blank" rel="external">nuysoft jQuery1.6.1源码分析系列</a></li>
+</ul>
+</li>
+<li>交流，Talk<ul>
+<li>team内部的ppt分享</li>
+</ul>
+</li>
+</ul>
+<p>##还可以怎么做</p>
+<ul>
+<li>不读JQ库，从实践中体悟<br>  大一的时候想着要通读一遍jq源码，最后没坚持下来，原因是，原来我连用的都没用过这个库=.=。<br>  能在具体的项目中去大量使用这个库，并尝试去理解它的设计思想也可以。世界上还有其他很好的库的，<br>  而且实现起来，也不会有jq那样的晦涩难懂…</li>
+<li>读一些小型的库<br>  163邮箱的harry大四的时候也尝试看jq，不过他更推荐看一些小型的库帮助自己去理解一些js的运用。<br>  确实，小型库小巧，但能让你看懂，并运用在自己的项目中。<ul>
+<li><a href="https://code.google.com/p/jraiser/" target="_blank" rel="external">jRaiser</a></li>
+<li><a href="http://users4.jabry.com/pengju/" target="_blank" rel="external">pj</a></li>
+<li><a href="http://bbs.51js.com/thread-88331-1-1.html" target="_blank" rel="external">jsFrame</a></li>
+</ul>
+</li>
+<li>看设计模式<ul>
+<li><a href="http://shichuan.github.com/javascript-patterns/" target="_blank" rel="external">js Patterns</a></li>
+<li><a href="http://book.douban.com/subject/5252901/" target="_blank" rel="external">Javascript Patterns</a></li>
+<li><a href="http://www.cnblogs.com/TomXu/archive/2012/07/26/2581268.html" target="_blank" rel="external">Tom大叔讲设计模式</a></li>
+</ul>
+</li>
+<li>做其他有趣的应用<br>  是的,你是热爱编程才做这一行的,对么XD</li>
+</ul>
+<p>##参考资料</p>
+<ul>
+<li>Helper tools<ul>
+<li><a href="http://james.padolsey.com/jquery/" target="_blank" rel="external">jQuery Source viewer</a></li>
+<li><a href="http://www.keyframesandcode.com/resources/javascript/deconstructed/jquery/" target="_blank" rel="external">jQuery Deconstructed</a></li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+
+    
+      
+      
+
+  <div class="post-copyright">
+    <p class="copyright-item">
+      <span>作者: </span>
+      <span>hugozen</span>
+    </p>
+    <p class="copyright-item">
+      <span>来源: </span>
+      <a href="http://hugozen.com">http://hugozen.com</a>
+    </p>
+    <p class="copyright-item">
+      <span>链接: </span>
+      <a href="http://hugozen.com/2012/11/20/2012-11-20-jq-sourcecode/">http://hugozen.com/2012/11/20/2012-11-20-jq-sourcecode/</a>
+    </p>
+
+    <p class="copyright-item lincese">
+      
+      本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+    </p>
+  </div>
+
+
+
+      
+      
+    
+
+    
+  </article>
+
+
+          </div>
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+        </div>  
+      </main>
+
+      <footer id="footer" class="footer">
+
+  <div class="social-links">
+    
+      
+        
+          <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  </div>
+
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://hexo.io/">Hexo</a>
+  </span>
+  
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/ahonn/hexo-theme-even">Even</a>
+  </span>
+
+  <span class="copyright-year">
+    
+    &copy; 
+     
+      2015 - 
+    
+    2017
+
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">hugozen</span>
+  </span>
+</div>
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+
+    
+
+
+    
+  
+
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+    <script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
+  
+
+    <script type="text/javascript" src="/js/src/even.js?v=2.2.x"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=2.2.x"></script>
+
+  </body>
+</html>
