@@ -1,0 +1,19 @@
+---
+layout: post
+title: "LAMP learning"
+date: 2010-09-22 04:49:54 +08:00
+categories: lamp php ps design
+---
+最近一直在折腾LAMP的东西，不过进度实在太慢了.....
+
+先贴个雏形吧，应该还会有很多需要修改的地方...我得加入自己的元素才行...
+
+下面这个是grunge风格的wp主题，很个性的一种风格...在图片的处理上，借鉴了上次太空人的方法，首先overlay照片，再高对比反差，出来的黑白效果真得很不错....<!--more-->
+这个是上次跟着教程做的太空人....嗯....放了只猫上去....
+
+![cat][]
+
+![website][]
+
+[cat]:http://farm5.static.flickr.com/4146/5052873533_451d7c5872_b.jpg
+[website]:http://farm5.static.flickr.com/4125/5053495122_f2cdd75bc8.jpg
