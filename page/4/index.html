@@ -174,76 +174,6 @@
     <header class="post-header">
       <h1 class="post-title">
         
-          <a class="post-link" href="/2016/08/17/2016-08-17-rabbitmq-reading-note/">rabbitmq reading note</a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          Aug 17, 2016
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        
-        
-          
-        
-
-        
-          <h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>之前在game workshop的时候，有做这方面的技术调研，了解了下这方面的技术细节。不过阅读的内容都存在Evernote里面，趁着翻阅的时候，把资料再掏出来。</p>
-<h3 id="blog"><a href="#blog" class="headerlink" title="blog"></a>blog</h3><ul>
-<li><a href="http://log.medcl.net/item/2010/12/rabbitmq-introduction-and-use-of-python-client-how-to-u…">AMQP的基础概念</a></li>
-<li><a href="http://backend.blog.163.com/blog/static/202294126201322215551999/">网易系列分析（重点看下队列积压的处理）</a></li>
-<li><a href="http://blog.csdn.net/zhangxinrun/article/details/6546479">AMPQ协议中文版</a></li>
-<li><a href="http://dc0127.blog.163.com/blog/static/11217896201322394228794/">学习笔记（部署方案值得借鉴）</a></li>
-<li><a href="http://www.tuicool.com/articles/YbYvIj">基于HAPROXY的分流+全局镜像队列的方式，简单粗暴</a></li>
-<li><a href="http://blog.chinaunix.net/uid-22312037-id-3479210.html">rabbitmq集群方案中文版</a></li>
-<li><a href="http://www.cnblogs.com/flat_peach/archive/2013/04/07/3004008.html">Rabbitmq集群高可用测试（集群方案比较简单）</a></li>
-<li><a href="http://www.cnblogs.com/me-sa/archive/2012/11/12/2766700.html">[Erlang 0086] RabbitMQ 集群: 从零开始</a></li>
-<li><a href="http://www.cnblogs.com/me-sa/archive/2012/11/11/2765539.html">[Erlang 0085] RabbitMQ 集群: data and metadata （rabbitmq的设计理念超棒）</a><ul>
-<li>RabbitMQ in Action 里面提到RabbitMQ两个设计目标,需要自己琢磨一下<ul>
-<li>allowing consumers and producers to keep running in the event one Rabbit node dies</li>
-<li>linearly scaling messaging throughput by adding more nodes.</li>
-</ul>
-</li>
-<li>在集群中的一个Rabbit节点当掉的时候允许Consumer和producer继续运行;以及通过增加节点的线性扩展方式增加消息吞吐能力.</li>
-<li>RabbitMQ会提供一些机制比如把exchange queue设置为durable,persistent mode设置为2,等等来尽可能保证消息不丢失,但是这种保证是有限的.即使你该做的都做了,RabbitMQ节点当掉还是有可能出现消息丢失的情况.这是因为RabbitMQ并没有在节点之间做数据复制(Data Replicate).没有特殊的配置(后面会提到Mirrored Queue),一个队列的数据只会出现在Queue所属的节点.</li>
-</ul>
-</li>
-<li><a href="http://www.rabbitmq.com/ha.html">Highly Available Queues</a></li>
-</ul>
-<h3 id="集群方案"><a href="#集群方案" class="headerlink" title="集群方案"></a>集群方案</h3><ul>
-<li><p><a href="https://www.rabbitmq.com/clustering.html#auto-config">rabbitmq的集群方案有几个点</a></p>
-<ul>
-<li>node可以选择disk或者ram模式，disk模式存储元数据（比如exchange、queue、channel）等。而ram节点不存储任何数据到disk上面（如果配置了queue数据为永久性的话，则还是会存？？）。</li>
-<li>元数据是会在节点间不断的同步的，所以文档建议可以采用一个disk节点，多个ram节点的方式来达到一个比较好的性能。</li>
-<li>rabbitmq对client的要求是，client可以选择连接到一个proxy，proxy再分发到集群内部的任意一个节点。但是这个工作必须是我们自己动手搞，不过可以借用一些开源的工具实现，比如HAPROXY、Nginx。</li>
-<li>queue内部的数据，分发的模式好像有两种，一种是完全的同步，一种按需同步。完全同步就是所有节点的队列数据都是一样的，按需索取是当连接某个node的queue被消费的时候，再从disk节点处获取数据。官网的推荐做法是按需同步，这样主要是为了横向扩展的时候，可以支持更多的并发连接，以及减少集群内部的网络通讯，降低消息分发的延迟。</li>
-</ul>
-          <div class="read-more">
-            <a href="/2016/08/17/2016-08-17-rabbitmq-reading-note/" class="read-more-link">Read more..</a>
-          </div>
-        
-      
-    </div>
-
-    
-
-    
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
           <a class="post-link" href="/2016/08/14/2016-08-14-how-to-run-scrapy-in-distribution-mode/">how to run scrapy in distribution mode</a>
         
       </h1>
@@ -651,6 +581,49 @@
           <div class="read-more">
             <a href="/2012/12/02/2012-12-02-the-little-scheme/" class="read-more-link">Read more..</a>
           </div>
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          <a class="post-link" href="/2012/11/22/2012-11-22-my-first-udacity-cource/">my first udacity cource</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Nov 22, 2012
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+
+        
+          <p>so it’s my second article written in english~greate!!!</p>
+<p>i recently take an online course on udacity,use python to write a search engine~</p>
+<p>not just awesome,but it tell me that how such monster like google being built.and i love pytho!</p>
+<p>it showes that code course could be tought in this way,and the online edu interaction could play<br>like this…</p>
+<p>so ,here is the link<del>and i wonder how many guys would do the final homework.would find a time to place the little search code on GAE,and make a gui for it</del>~</p>
+<p>if you come from china,why not go to the v2ex to share your learing experince with geeks….</p>
+<p>find the course on <a href="http://www.udacity.com/" target="_blank" rel="external">udacity</a>, keep learing .</p>
+
         
       
     </div>
