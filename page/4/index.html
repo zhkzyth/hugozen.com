@@ -174,6 +174,53 @@
     <header class="post-header">
       <h1 class="post-title">
         
+          <a class="post-link" href="/2016/08/14/2016-08-14-how-to-run-scrapy-in-distribution-mode/">how to run scrapy in distribution mode</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Aug 14, 2016
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+          
+        
+
+        
+          <p>From previous post, i wrote things that i learned from <a href="http://scrapy.org/">Scrapy</a> architecture.</p>
+<p>At this one, I try to explain how to run Scrapy in distribution mode.Or even better, try to write your own spiders code to support that.</p>
+<p>So i once say that, Scrapy has 4 parts to get things work.But why 4 parts, you may wonder?</p>
+<p>Let’s just forget about Scrapy, and use <code>worker + consumer</code> <a href="https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem">pattern</a> to get a deeper understanding of how spider works.</p>
+<p>Spiders are the <code>worker</code>.They try to crawl pages, producing more and more links to crawl, which we call tasks, right? All the spiders just crawl the page, get new links and store them in one place, and store the target content in another place.And go on crawling.</p>
+<p>Then who is the <code>consumer</code>, and what dose the “places” mean?</p>
+<p>Well, to <code>consumer</code>, you can choose any things that can get content from “places” and do stuff on it, like the <code>Item Pipeline</code> part of Scrapy. Or writ your code to consume.</p>
+          <div class="read-more">
+            <a href="/2016/08/14/2016-08-14-how-to-run-scrapy-in-distribution-mode/" class="read-more-link">Read more..</a>
+          </div>
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
           <a class="post-link" href="/2016/08/14/2016-08-14-things-i-learn-from-scrapy/">things i learn from scrapy</a>
         
       </h1>
@@ -577,51 +624,6 @@
 <p>if you come from china,why not go to the v2ex to share your learing experince with geeks….</p>
 <p>find the course on <a href="http://www.udacity.com/" target="_blank" rel="external">udacity</a>, keep learing .</p>
 
-        
-      
-    </div>
-
-    
-
-    
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          <a class="post-link" href="/2012/11/22/2012-11-22-why-and-how-in-lisp/">why and how in lisp</a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          Nov 22, 2012
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        
-        
-          
-        
-
-        
-          <p>心血来潮，看起了lisp。起因是我太寂寞了，想找些函数式语言，来打发有强迫症的自己。</p>
-<p>当然了，原因不只这么简单，更重要的是，我想去了解函数式语言的起源，或者，写一个<a href="http://stackoverflow.com/questions/1669/learning-to-write-a-compiler">自己的编译器</a>玩玩也不错.</p>
-<p>还有，就是找到函数式语言本质的东西，而不是游走在猛蛇、砖石的门外，不得深入，再深入。</p>
-<p>每个周六日，都是我的外遇日，因为我终于有两个完整的日子，去陪我这两个小情人了。</p>
-<p>人说程序员是多情的，这倒是真的。只是我还算专一，至今仍泡在函数式编程的圈子里。<br>
-          <div class="read-more">
-            <a href="/2012/11/22/2012-11-22-why-and-how-in-lisp/" class="read-more-link">Read more..</a>
-          </div>
         
       
     </div>

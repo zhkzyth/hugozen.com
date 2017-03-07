@@ -174,6 +174,60 @@
     <header class="post-header">
       <h1 class="post-title">
         
+          <a class="post-link" href="/2016/08/18/2016-08-18-the-reading-note-of-new-angle-for-30-s/">the reading note of new angle for 30's</a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <span class="post-time">
+          Aug 18, 2016
+        </span>
+      </div>
+    </header>
+
+    
+    
+
+    <div class="post-content">
+      
+        
+        
+          
+        
+
+        
+          <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>书的名字，叫《30岁后，为梦想寻找现实的出口》，英文名我实在不知道怎么翻译，就那么着先吧。囧…书的作者是，李梓新，值得关注的一个人。</p>
+<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><p>下面每个一个小标题，都是某个有趣人的生活片断。</p>
+<h3 id="我的奢侈生活"><a href="#我的奢侈生活" class="headerlink" title="我的奢侈生活"></a>我的奢侈生活</h3><ul>
+<li>一是他是最早一批下海的人，不想过朝九晚五的生活，一直有创业精神，都想去试，哪怕要付出代价；</li>
+<li>二是他是一个求知欲非常强的人，老了也想继续学东西；</li>
+<li>三是他是一个希望了解真相的人，他会“翻墙”。</li>
+<li>一个程序员要发展，要做出更好的东西来，必须也要懂设计、懂产品。好的产品经理要了解设计，了解技术，不一定要自己做，但需要了解整个生产链。你如果只活在自己的角色里，很难最有效率地合作，做出成功的产品来。</li>
+<li>我们的婚姻只是我们两个人的结合，不是两个家庭的联姻。</li>
+<li>我们无论在哪里，只要有网络、有电，就可以一样地工作生活，我们的社交生活也大部分在网上，这些朋友即使很长时间不见也不会觉得生疏。我们都觉得我们现在的生活非常奢侈。</li>
+<li>这种奢侈不在于物质，而是我们非常自由，自由是我们这一代人最奢侈的东西。</li>
+</ul>
+<h3 id="去往“墙”外"><a href="#去往“墙”外" class="headerlink" title="去往“墙”外"></a>去往“墙”外</h3><ul>
+<li>如果能“翻墙”的话，我建议大家去<a href="http://developer.nytimes.com/">这个网站</a>上看看，这是《纽约时报》开放的API（应用程序编程接口），开发者可以调用到几百万份经过结构化处理的数据，包括1981年至今的新闻报道、国会投票、畅销书列表、影评，甚至还有纽约市的房地产开盘和销售信息等。</li>
+</ul>
+          <div class="read-more">
+            <a href="/2016/08/18/2016-08-18-the-reading-note-of-new-angle-for-30-s/" class="read-more-link">Read more..</a>
+          </div>
+        
+      
+    </div>
+
+    
+
+    
+  </article>
+
+    
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
           <a class="post-link" href="/2016/08/18/2016-08-18-how-to-do-product-analysis/">how to do product analysis</a>
         
       </h1>
@@ -764,53 +818,6 @@
 </ul>
           <div class="read-more">
             <a href="/2016/08/17/2016-08-17-rabbitmq-reading-note/" class="read-more-link">Read more..</a>
-          </div>
-        
-      
-    </div>
-
-    
-
-    
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          <a class="post-link" href="/2016/08/14/2016-08-14-how-to-run-scrapy-in-distribution-mode/">how to run scrapy in distribution mode</a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          Aug 14, 2016
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        
-        
-          
-        
-
-        
-          <p>From previous post, i wrote things that i learned from <a href="http://scrapy.org/">Scrapy</a> architecture.</p>
-<p>At this one, I try to explain how to run Scrapy in distribution mode.Or even better, try to write your own spiders code to support that.</p>
-<p>So i once say that, Scrapy has 4 parts to get things work.But why 4 parts, you may wonder?</p>
-<p>Let’s just forget about Scrapy, and use <code>worker + consumer</code> <a href="https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem">pattern</a> to get a deeper understanding of how spider works.</p>
-<p>Spiders are the <code>worker</code>.They try to crawl pages, producing more and more links to crawl, which we call tasks, right? All the spiders just crawl the page, get new links and store them in one place, and store the target content in another place.And go on crawling.</p>
-<p>Then who is the <code>consumer</code>, and what dose the “places” mean?</p>
-<p>Well, to <code>consumer</code>, you can choose any things that can get content from “places” and do stuff on it, like the <code>Item Pipeline</code> part of Scrapy. Or writ your code to consume.</p>
-          <div class="read-more">
-            <a href="/2016/08/14/2016-08-14-how-to-run-scrapy-in-distribution-mode/" class="read-more-link">Read more..</a>
           </div>
         
       
