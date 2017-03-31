@@ -84,6 +84,18 @@
 </blockquote>
 ]]></content>
       
+        <categories>
+            
+            <category> life </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> muji reading-note </tag>
+            
+        </tags>
         
     </entry>
     
@@ -279,10 +291,16 @@
       
         <categories>
             
-            <category> blog reading-note life </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> blog reading-note life </tag>
+            
+        </tags>
         
     </entry>
     
@@ -298,10 +316,16 @@
       
         <categories>
             
-            <category> mqtt reading-note </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> mqtt reading-note </tag>
+            
+        </tags>
         
     </entry>
     
@@ -324,10 +348,16 @@
       
         <categories>
             
-            <category> reading-note learning skill </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> reading-note learning skill </tag>
+            
+        </tags>
         
     </entry>
     
@@ -343,10 +373,16 @@
       
         <categories>
             
-            <category> interaction-design design reading-note </category>
+            <category> design </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> interaction-design design reading-note </tag>
+            
+        </tags>
         
     </entry>
     
@@ -367,10 +403,16 @@
       
         <categories>
             
-            <category> mosquitto reading note tech </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> mosquitto reading note tech </tag>
+            
+        </tags>
         
     </entry>
     
@@ -395,10 +437,16 @@
       
         <categories>
             
-            <category> erlang notes tech </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> erlang notes tech </tag>
+            
+        </tags>
         
     </entry>
     
@@ -462,10 +510,16 @@
       
         <categories>
             
-            <category> mongodb sharding notes </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> mongodb sharding notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -499,10 +553,16 @@
       
         <categories>
             
-            <category> zhifubao pay notes </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> zhifubao pay notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -547,10 +607,16 @@
       
         <categories>
             
-            <category> python spider notes </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> python spider notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -565,10 +631,16 @@
       
         <categories>
             
-            <category> python reading note totor library </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> python reading note totor library </tag>
+            
+        </tags>
         
     </entry>
     
@@ -588,10 +660,16 @@
       
         <categories>
             
-            <category> design reading notes </category>
+            <category> design </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> design reading notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -629,10 +707,16 @@
       
         <categories>
             
-            <category> tech reading software </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> tech reading software </tag>
+            
+        </tags>
         
     </entry>
     
@@ -752,10 +836,16 @@
       
         <categories>
             
-            <category> chuangyebang reading-notes </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> chuangyebang reading-notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -839,10 +929,16 @@
       
         <categories>
             
-            <category> chuangyebang reading-notes </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> chuangyebang reading-notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -965,10 +1061,16 @@
       
         <categories>
             
-            <category> startup reading-notes </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> startup reading-notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -998,10 +1100,16 @@
       
         <categories>
             
-            <category> notes aliyun startup tech </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> notes aliyun startup tech </tag>
+            
+        </tags>
         
     </entry>
     
@@ -1036,10 +1144,16 @@
       
         <categories>
             
-            <category> notes writing life </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> notes writing life </tag>
+            
+        </tags>
         
     </entry>
     
@@ -1103,10 +1217,16 @@
       
         <categories>
             
-            <category> reading reading-notes </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> reading reading-notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -1487,10 +1607,16 @@
       
         <categories>
             
-            <category> life startup tech </category>
+            <category> tech life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> life startup tech </tag>
+            
+        </tags>
         
     </entry>
     
@@ -1569,10 +1695,16 @@
       
         <categories>
             
-            <category> life reading-note notes </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> life reading-note notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -1645,10 +1777,16 @@
       
         <categories>
             
-            <category> product-analysis product skill </category>
+            <category> product </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> product-analysis product skill </tag>
+            
+        </tags>
         
     </entry>
     
@@ -1673,10 +1811,16 @@
       
         <categories>
             
-            <category> react redux reading-notes learn </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> react redux reading-notes learn </tag>
+            
+        </tags>
         
     </entry>
     
@@ -1716,10 +1860,16 @@
       
         <categories>
             
-            <category> design web </category>
+            <category> design </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> design web </tag>
+            
+        </tags>
         
     </entry>
     
@@ -1788,10 +1938,16 @@
       
         <categories>
             
-            <category> reading-notes startup </category>
+            <category> tech life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> reading-notes startup </tag>
+            
+        </tags>
         
     </entry>
     
@@ -1816,10 +1972,16 @@
       
         <categories>
             
-            <category> gentoo linux learn </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> gentoo linux learn </tag>
+            
+        </tags>
         
     </entry>
     
@@ -1971,10 +2133,16 @@
       
         <categories>
             
-            <category> web tech notes javascript </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> web tech notes javascript </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2042,10 +2210,16 @@
       
         <categories>
             
-            <category> test software silver-bullet </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> test software silver-bullet </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2109,10 +2283,16 @@
       
         <categories>
             
-            <category> notes tech life </category>
+            <category> tech life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> notes tech life </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2191,10 +2371,16 @@
       
         <categories>
             
-            <category> rabbitmq note tech </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> rabbitmq note tech </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2221,10 +2407,16 @@
       
         <categories>
             
-            <category> scrapy python redis cached </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> scrapy python redis cached </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2252,10 +2444,16 @@
       
         <categories>
             
-            <category> scrapy notes python </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> scrapy notes python </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2274,10 +2472,16 @@
       
         <categories>
             
-            <category> scrapy twisted mysql </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> scrapy twisted mysql </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2302,10 +2506,16 @@
       
         <categories>
             
-            <category> tornado python sourcecode </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> tornado python sourcecode </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2322,10 +2532,16 @@
       
         <categories>
             
-            <category> dht net bt python </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> dht net bt python </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2341,10 +2557,16 @@
       
         <categories>
             
-            <category> system reading notes os asm code </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> system reading notes os asm code </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2374,10 +2596,16 @@
       
         <categories>
             
-            <category> django python tech reading notes </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> django python tech reading notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2458,10 +2686,16 @@
       
         <categories>
             
-            <category> webpy python tips tech </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> webpy python tips tech </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2494,10 +2728,16 @@
       
         <categories>
             
-            <category> reading notes lisp scheme </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> reading notes lisp scheme </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2515,10 +2755,16 @@
       
         <categories>
             
-            <category> udacity learning python search </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> udacity learning python search </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2543,10 +2789,16 @@
       
         <categories>
             
-            <category> code lisp compiler </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> code lisp compiler </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2584,10 +2836,16 @@
       
         <categories>
             
-            <category> product life code </category>
+            <category> product life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> product life code </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2601,10 +2859,16 @@
       
         <categories>
             
-            <category> jq code js yui </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> jq code js yui </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2668,10 +2932,16 @@
       
         <categories>
             
-            <category> js jq code reading notes </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> js jq code reading notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2685,10 +2955,16 @@
       
         <categories>
             
-            <category> code js jq team </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> code js jq team </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2704,10 +2980,16 @@
       
         <categories>
             
-            <category> tips learning algorithm code </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> tips learning algorithm code </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2866,10 +3148,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> mysql php code tips </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> mysql php code tips </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2889,10 +3177,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> php code tips </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> php code tips </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2921,10 +3215,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> tools tips code </category>
+            <category> tech </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> tools tips code </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2946,6 +3246,12 @@ mysql_set_charset(“utf8”,$this-&gt;link);
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> life product </tag>
+            
+        </tags>
         
     </entry>
     
@@ -2975,10 +3281,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> reading notes </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> reading notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3097,10 +3409,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> reading notes </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> reading notes </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3142,10 +3460,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> douban product </category>
+            <category> product </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> douban product </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3233,6 +3557,12 @@ mysql_set_charset(“utf8”,$this-&gt;link);
 ]]></content>
       
         
+        <tags>
+            
+            <tag> college douban code plugin </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -3287,10 +3617,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> team college life </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> team college life </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3310,10 +3646,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> team college life </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> team college life </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3335,10 +3677,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> team college life </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> team college life </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3365,10 +3713,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> team college </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> team college </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3382,10 +3736,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> ted </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> ted </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3411,10 +3771,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> team college </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> team college </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3430,10 +3796,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> lamp php ps design </category>
+            <category> design </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> lamp php ps design </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3450,10 +3822,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> team life college </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> team life college </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3475,10 +3853,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> time self-manage </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> time self-manage </tag>
+            
+        </tags>
         
     </entry>
     
@@ -3544,10 +3928,16 @@ mysql_set_charset(“utf8”,$this-&gt;link);
       
         <categories>
             
-            <category> team life college </category>
+            <category> life </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> team life college </tag>
+            
+        </tags>
         
     </entry>
     

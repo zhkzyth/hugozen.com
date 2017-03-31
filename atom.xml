@@ -49,7 +49,7 @@
     <link href="http://hugozen.com/2017/03/07/2017-03-07-reading-note-of-jie-mi-wu-yin-liang-ping/"/>
     <id>http://hugozen.com/2017/03/07/2017-03-07-reading-note-of-jie-mi-wu-yin-liang-ping/</id>
     <published>2017-03-07T05:05:02.000Z</published>
-    <updated>2017-03-22T02:10:26.000Z</updated>
+    <updated>2017-03-31T15:45:11.000Z</updated>
     
     <summary type="html">
     
@@ -60,6 +60,10 @@
     
     </summary>
     
+      <category term="life" scheme="http://hugozen.com/categories/life/"/>
+    
+    
+      <category term="muji reading-note" scheme="http://hugozen.com/tags/muji-reading-note/"/>
     
   </entry>
   
@@ -68,7 +72,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-note-of-great-blog/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-note-of-great-blog/</id>
     <published>2016-09-06T14:24:36.000Z</published>
-    <updated>2017-03-05T03:59:05.000Z</updated>
+    <updated>2017-03-31T15:36:48.000Z</updated>
     
     <summary type="html">
     
@@ -84,8 +88,10 @@
     
     </summary>
     
-      <category term="blog reading-note life" scheme="http://hugozen.com/categories/blog-reading-note-life/"/>
+      <category term="life" scheme="http://hugozen.com/categories/life/"/>
     
+    
+      <category term="blog reading-note life" scheme="http://hugozen.com/tags/blog-reading-note-life/"/>
     
   </entry>
   
@@ -94,7 +100,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-note-of-mqtt-protocol/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-note-of-mqtt-protocol/</id>
     <published>2016-09-06T14:17:43.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:42:54.000Z</updated>
     
     <summary type="html">
     
@@ -103,8 +109,10 @@
     
     </summary>
     
-      <category term="mqtt reading-note" scheme="http://hugozen.com/categories/mqtt-reading-note/"/>
+      <category term="tech" scheme="http://hugozen.com/categories/tech/"/>
     
+    
+      <category term="mqtt reading-note" scheme="http://hugozen.com/tags/mqtt-reading-note/"/>
     
   </entry>
   
@@ -113,7 +121,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-note-of-learning-skills/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-note-of-learning-skills/</id>
     <published>2016-09-06T14:10:31.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:42:42.000Z</updated>
     
     <summary type="html">
     
@@ -124,8 +132,10 @@
     
     </summary>
     
-      <category term="reading-note learning skill" scheme="http://hugozen.com/categories/reading-note-learning-skill/"/>
+      <category term="life" scheme="http://hugozen.com/categories/life/"/>
     
+    
+      <category term="reading-note learning skill" scheme="http://hugozen.com/tags/reading-note-learning-skill/"/>
     
   </entry>
   
@@ -134,7 +144,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-reading-note-of-about-face-3/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-reading-note-of-about-face-3/</id>
     <published>2016-09-06T14:04:28.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:43:41.000Z</updated>
     
     <summary type="html">
     
@@ -142,8 +152,10 @@
     
     </summary>
     
-      <category term="interaction-design design reading-note" scheme="http://hugozen.com/categories/interaction-design-design-reading-note/"/>
+      <category term="design" scheme="http://hugozen.com/categories/design/"/>
     
+    
+      <category term="interaction-design design reading-note" scheme="http://hugozen.com/tags/interaction-design-design-reading-note/"/>
     
   </entry>
   
@@ -152,7 +164,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-reading-note-of-mosquitto/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-reading-note-of-mosquitto/</id>
     <published>2016-09-06T13:57:22.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:43:53.000Z</updated>
     
     <summary type="html">
     
@@ -161,8 +173,10 @@
     
     </summary>
     
-      <category term="mosquitto reading note tech" scheme="http://hugozen.com/categories/mosquitto-reading-note-tech/"/>
+      <category term="tech" scheme="http://hugozen.com/categories/tech/"/>
     
+    
+      <category term="mosquitto reading note tech" scheme="http://hugozen.com/tags/mosquitto-reading-note-tech/"/>
     
   </entry>
   
@@ -171,7 +185,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-notes-of-learning-erlang/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-notes-of-learning-erlang/</id>
     <published>2016-09-06T10:35:38.000Z</published>
-    <updated>2017-03-05T02:54:22.000Z</updated>
+    <updated>2017-03-31T15:43:10.000Z</updated>
     
     <summary type="html">
     
@@ -184,8 +198,10 @@
     
     </summary>
     
-      <category term="erlang notes tech" scheme="http://hugozen.com/categories/erlang-notes-tech/"/>
+      <category term="tech" scheme="http://hugozen.com/categories/tech/"/>
     
+    
+      <category term="erlang notes tech" scheme="http://hugozen.com/tags/erlang-notes-tech/"/>
     
   </entry>
   
@@ -194,7 +210,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-sharding-of-mongodb/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-sharding-of-mongodb/</id>
     <published>2016-09-06T10:21:09.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:44:18.000Z</updated>
     
     <summary type="html">
     
@@ -213,8 +229,10 @@
     
     </summary>
     
-      <category term="mongodb sharding notes" scheme="http://hugozen.com/categories/mongodb-sharding-notes/"/>
+      <category term="tech" scheme="http://hugozen.com/categories/tech/"/>
     
+    
+      <category term="mongodb sharding notes" scheme="http://hugozen.com/tags/mongodb-sharding-notes/"/>
     
   </entry>
   
@@ -223,7 +241,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-notes-of-zhifubao-pay/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-notes-of-zhifubao-pay/</id>
     <published>2016-09-06T10:11:56.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:43:24.000Z</updated>
     
     <summary type="html">
     
@@ -240,8 +258,10 @@
     
     </summary>
     
-      <category term="zhifubao pay notes" scheme="http://hugozen.com/categories/zhifubao-pay-notes/"/>
+      <category term="tech" scheme="http://hugozen.com/categories/tech/"/>
     
+    
+      <category term="zhifubao pay notes" scheme="http://hugozen.com/tags/zhifubao-pay-notes/"/>
     
   </entry>
   
@@ -250,7 +270,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-spider-related/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-spider-related/</id>
     <published>2016-09-06T10:06:27.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:44:36.000Z</updated>
     
     <summary type="html">
     
@@ -270,8 +290,10 @@
     
     </summary>
     
-      <category term="python spider notes" scheme="http://hugozen.com/categories/python-spider-notes/"/>
+      <category term="tech" scheme="http://hugozen.com/categories/tech/"/>
     
+    
+      <category term="python spider notes" scheme="http://hugozen.com/tags/python-spider-notes/"/>
     
   </entry>
   
@@ -280,7 +302,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-reading-note-of-the-totor-library-for-python/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-reading-note-of-the-totor-library-for-python/</id>
     <published>2016-09-06T01:05:06.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:44:06.000Z</updated>
     
     <summary type="html">
     
@@ -288,8 +310,10 @@
     
     </summary>
     
-      <category term="python reading note totor library" scheme="http://hugozen.com/categories/python-reading-note-totor-library/"/>
+      <category term="tech" scheme="http://hugozen.com/categories/tech/"/>
     
+    
+      <category term="python reading note totor library" scheme="http://hugozen.com/tags/python-reading-note-totor-library/"/>
     
   </entry>
   
@@ -298,7 +322,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-collection-of-good-design-notes/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-collection-of-good-design-notes/</id>
     <published>2016-09-06T00:59:30.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:36:37.000Z</updated>
     
     <summary type="html">
     
@@ -307,8 +331,10 @@
     
     </summary>
     
-      <category term="design reading notes" scheme="http://hugozen.com/categories/design-reading-notes/"/>
+      <category term="design" scheme="http://hugozen.com/categories/design/"/>
     
+    
+      <category term="design reading notes" scheme="http://hugozen.com/tags/design-reading-notes/"/>
     
   </entry>
   
@@ -317,7 +343,7 @@
     <link href="http://hugozen.com/2016/09/06/2016-09-06-notes-of-build-complex-software/"/>
     <id>http://hugozen.com/2016/09/06/2016-09-06-notes-of-build-complex-software/</id>
     <published>2016-09-05T17:23:08.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:43:03.000Z</updated>
     
     <summary type="html">
     
@@ -337,8 +363,10 @@
     
     </summary>
     
-      <category term="tech reading software" scheme="http://hugozen.com/categories/tech-reading-software/"/>
+      <category term="tech" scheme="http://hugozen.com/categories/tech/"/>
     
+    
+      <category term="tech reading software" scheme="http://hugozen.com/tags/tech-reading-software/"/>
     
   </entry>
   
@@ -347,7 +375,7 @@
     <link href="http://hugozen.com/2016/08/19/2016-08-19-chuang-ye-bang-reading-note-part-2/"/>
     <id>http://hugozen.com/2016/08/19/2016-08-19-chuang-ye-bang-reading-note-part-2/</id>
     <published>2016-08-19T12:06:57.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:35:20.000Z</updated>
     
     <summary type="html">
     
@@ -383,8 +411,10 @@
     
     </summary>
     
-      <category term="chuangyebang reading-notes" scheme="http://hugozen.com/categories/chuangyebang-reading-notes/"/>
+      <category term="life" scheme="http://hugozen.com/categories/life/"/>
     
+    
+      <category term="chuangyebang reading-notes" scheme="http://hugozen.com/tags/chuangyebang-reading-notes/"/>
     
   </entry>
   
@@ -393,7 +423,7 @@
     <link href="http://hugozen.com/2016/08/19/2016-08-19-chuang-ye-bang-reading-note/"/>
     <id>http://hugozen.com/2016/08/19/2016-08-19-chuang-ye-bang-reading-note/</id>
     <published>2016-08-19T12:03:19.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:46:50.000Z</updated>
     
     <summary type="html">
     
@@ -438,8 +468,10 @@
     
     </summary>
     
-      <category term="chuangyebang reading-notes" scheme="http://hugozen.com/categories/chuangyebang-reading-notes/"/>
+      <category term="life" scheme="http://hugozen.com/categories/life/"/>
     
+    
+      <category term="chuangyebang reading-notes" scheme="http://hugozen.com/tags/chuangyebang-reading-notes/"/>
     
   </entry>
   
@@ -448,7 +480,7 @@
     <link href="http://hugozen.com/2016/08/19/2016-08-19-things-to-be-concerned-when-you-make-a-startup/"/>
     <id>http://hugozen.com/2016/08/19/2016-08-19-things-to-be-concerned-when-you-make-a-startup/</id>
     <published>2016-08-19T11:42:19.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:36:13.000Z</updated>
     
     <summary type="html">
     
@@ -466,8 +498,10 @@
     
     </summary>
     
-      <category term="startup reading-notes" scheme="http://hugozen.com/categories/startup-reading-notes/"/>
+      <category term="life" scheme="http://hugozen.com/categories/life/"/>
     
+    
+      <category term="startup reading-notes" scheme="http://hugozen.com/tags/startup-reading-notes/"/>
     
   </entry>
   
@@ -476,7 +510,7 @@
     <link href="http://hugozen.com/2016/08/19/2016-08-19-the-software-services-that-startup-use-in-china/"/>
     <id>http://hugozen.com/2016/08/19/2016-08-19-the-software-services-that-startup-use-in-china/</id>
     <published>2016-08-19T11:36:41.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:36:01.000Z</updated>
     
     <summary type="html">
     
@@ -487,8 +521,10 @@
     
     </summary>
     
-      <category term="notes aliyun startup tech" scheme="http://hugozen.com/categories/notes-aliyun-startup-tech/"/>
+      <category term="tech" scheme="http://hugozen.com/categories/tech/"/>
     
+    
+      <category term="notes aliyun startup tech" scheme="http://hugozen.com/tags/notes-aliyun-startup-tech/"/>
     
   </entry>
   
@@ -497,7 +533,7 @@
     <link href="http://hugozen.com/2016/08/19/2016-08-19-wen-an-xun-lian-shou-ce-yue-du-bi-ji/"/>
     <id>http://hugozen.com/2016/08/19/2016-08-19-wen-an-xun-lian-shou-ce-yue-du-bi-ji/</id>
     <published>2016-08-19T11:29:56.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:36:23.000Z</updated>
     
     <summary type="html">
     
@@ -518,8 +554,10 @@
     
     </summary>
     
-      <category term="notes writing life" scheme="http://hugozen.com/categories/notes-writing-life/"/>
+      <category term="life" scheme="http://hugozen.com/categories/life/"/>
     
+    
+      <category term="notes writing life" scheme="http://hugozen.com/tags/notes-writing-life/"/>
     
   </entry>
   
@@ -528,7 +566,7 @@
     <link href="http://hugozen.com/2016/08/19/2016-08-19-the-one-thing/"/>
     <id>http://hugozen.com/2016/08/19/2016-08-19-the-one-thing/</id>
     <published>2016-08-19T11:26:26.000Z</published>
-    <updated>2017-03-05T02:25:12.000Z</updated>
+    <updated>2017-03-31T15:35:45.000Z</updated>
     
     <summary type="html">
     
@@ -545,8 +583,10 @@
     
     </summary>
     
-      <category term="reading reading-notes" scheme="http://hugozen.com/categories/reading-reading-notes/"/>
+      <category term="life" scheme="http://hugozen.com/categories/life/"/>
     
+    
+      <category term="reading reading-notes" scheme="http://hugozen.com/tags/reading-reading-notes/"/>
     
   </entry>
   
