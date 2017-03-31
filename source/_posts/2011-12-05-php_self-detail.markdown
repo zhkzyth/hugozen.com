@@ -2,7 +2,10 @@
 layout: post
 title: "[translate]php_self vs path_info vs script_name vs request_uri"
 date: 2011-12-05 18:39:39 +08:00
-tags: php code tips
+tags:
+- php
+- code
+- tips
 categories: tech
 ---
 

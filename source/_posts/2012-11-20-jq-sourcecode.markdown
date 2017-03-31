@@ -3,7 +3,12 @@ layout: post
 title: "jq-sourceCode"
 date: 2012-11-20 23:30
 comments: true
-tags: js jq code reading notes
+tags:
+- js
+- jq
+- code
+- reading
+- notes
 categories: tech
 ---
 

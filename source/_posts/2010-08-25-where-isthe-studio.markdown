@@ -2,7 +2,10 @@
 layout: post
 title: "说好的工作室呢"
 date: 2010-08-25 07:32:39 +08:00
-tags: team life college
+tags:
+- team
+- life
+- college
 categories: life
 ---
 

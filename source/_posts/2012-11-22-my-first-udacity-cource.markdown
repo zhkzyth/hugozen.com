@@ -3,7 +3,11 @@ layout: post
 title: "my first udacity cource"
 date: 2012-11-22 01:14
 comments: true
-tags: udacity learning python search
+tags:
+- udacity
+- learning
+- python
+- search
 categories: tech
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "write your asm code"
 date: 2013-08-11 21:49
 comments: true
-tags: system reading notes os asm code
+tags: ['system', 'reading', 'notes', 'os', 'asm', 'code']
 categories: tech
 ---
 

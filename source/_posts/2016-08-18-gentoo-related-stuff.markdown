@@ -3,7 +3,10 @@ layout: post
 title: "gentoo related stuff"
 date: 2016-08-18 22:51:06 +0800
 comments: true
-tags: gentoo linux learn
+tags:
+- gentoo
+- linux
+- learn
 categories: tech
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title: "Hi,all"
 date: 2011-12-04 12:16:23 +08:00
-tags: life product
+tags:
+- life
+- product
 categories: life product
 ---
 

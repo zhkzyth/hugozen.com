@@ -3,7 +3,9 @@ layout: post
 title: "the one thing"
 date: 2016-08-19 19:26:26 +0800
 comments: true
-tags: reading reading-notes
+tags:
+- reading
+- reading-notes
 categories: life
 ---
 

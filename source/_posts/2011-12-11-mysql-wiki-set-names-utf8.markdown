@@ -2,7 +2,11 @@
 layout: post
 title: "Mysql Wiki Set Names Utf8"
 date: 2011-12-11 18:40:41 +08:00
-tags: mysql php code tips
+tags:
+- mysql
+- php
+- code
+- tips
 categories: tech
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title: "工作室的技术交流会"
 date: 2010-10-13 12:47:24 +08:00
-tags: team college
+tags:
+- team
+- college
 categories: life
 ---
 

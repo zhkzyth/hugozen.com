@@ -2,7 +2,9 @@
 layout: post
 title: 《引爆点》读书笔记
 date: 2011-06-12 15:17:17 +08:00
-tags: reading notes
+tags:
+- reading
+- notes
 categories: life
 ---
 

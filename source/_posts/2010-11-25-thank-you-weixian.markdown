@@ -2,7 +2,10 @@
 layout: post
 title: "谢谢你，伟贤"
 date: 2010-11-25 17:57:45 +08:00
-tags: team college life
+tags:
+- team
+- college
+- life
 categories: life
 ---
 

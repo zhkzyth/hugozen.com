@@ -3,7 +3,10 @@ layout: post
 title: "why and how in lisp"
 date: 2012-11-22 00:53
 comments: true
-tags: code lisp compiler
+tags:
+- code
+- lisp
+- compiler
 categories: tech
 ---
 

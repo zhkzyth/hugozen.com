@@ -3,7 +3,11 @@ layout: post
 title: "YUI-allThingModule"
 date: 2012-11-21 00:46
 comments: true
-tags:  jq code js yui
+tags:
+- jq
+- code
+- js
+- yui
 categories: tech
 ---
 

@@ -3,7 +3,10 @@ layout: post
 title: "no silver bullet"
 date: 2016-08-18 10:08:47 +0800
 comments: true
-tags: test software silver-bullet
+tags:
+- test
+- software
+- silver-bullet
 categories: tech
 ---
 

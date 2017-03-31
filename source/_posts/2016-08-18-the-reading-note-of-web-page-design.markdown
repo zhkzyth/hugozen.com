@@ -3,7 +3,9 @@ layout: post
 title: "the reading note of web page design"
 date: 2016-08-18 23:03:26 +0800
 comments: true
-tags: design web
+tags:
+- design
+- web
 categories: design
 ---
 

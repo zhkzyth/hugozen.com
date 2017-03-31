@@ -3,7 +3,11 @@ layout: post
 title: "how to run scrapy in distribution mode"
 date: 2016-08-14 17:08:10 +0800
 comments: true
-tags: scrapy python redis cached
+tags:
+- scrapy
+- python
+- redis
+- cached
 categories: tech
 ---
 

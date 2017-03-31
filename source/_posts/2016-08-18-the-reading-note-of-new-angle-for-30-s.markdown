@@ -3,7 +3,10 @@ layout: post
 title: "the reading note of new angle for 30's"
 date: 2016-08-18 23:31:47 +0800
 comments: true
-tags: life reading-note notes
+tags:
+- life
+- reading-note
+- notes
 categories: life
 ---
 

@@ -2,7 +2,9 @@
 layout: post
 title: "《如何阅读一本书》笔记"
 date: 2011-05-01 21:50:35 +08:00
-tags: reading notes
+tags:
+- reading
+- notes
 categories: life
 ---
 

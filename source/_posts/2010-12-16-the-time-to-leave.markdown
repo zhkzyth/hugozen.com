@@ -2,7 +2,10 @@
 layout: post
 title: "写在即将离开工作室的时候"
 date: 2010-12-16 17:20:46 +08:00
-tags: team college life
+tags:
+- team
+- college
+- life
 categories: life
 ---
 

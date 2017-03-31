@@ -3,7 +3,9 @@ layout: post
 title: "things to be concerned when you make a startup"
 date: 2016-08-19 19:42:19 +0800
 comments: true
-tags: startup reading-notes
+tags:
+- startup
+- reading-notes
 categories: life
 ---
 

@@ -2,7 +2,11 @@
 layout: post
 title: "有趣的可汗学院"
 date: 2012-09-19 18:02:11 +08:00
-tags: tips learning algorithm code
+tags:
+- tips
+- learning
+- algorithm
+- code
 categories: tech
 ---
 

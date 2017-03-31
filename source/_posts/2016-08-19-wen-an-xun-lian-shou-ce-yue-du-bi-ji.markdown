@@ -3,7 +3,10 @@ layout: post
 title: "《文案训练手册》阅读笔记"
 date: 2016-08-19 19:29:56 +0800
 comments: true
-tags: notes writing life
+tags:
+- notes
+- writing
+- life
 categories: life
 ---
 ## 背景

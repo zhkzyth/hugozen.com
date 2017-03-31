@@ -3,7 +3,10 @@ layout: post
 title: "things i learn from scrapy"
 date: 2016-08-14 16:37:36 +0800
 comments: true
-tags: scrapy notes python
+tags:
+- scrapy
+- notes
+- python
 categories: tech
 ---
 

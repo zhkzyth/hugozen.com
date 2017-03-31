@@ -3,7 +3,11 @@ layout: post
 title: "note of optimization for zdlive web sites"
 date: 2016-08-18 22:23:13 +0800
 comments: true
-tags: web tech notes javascript
+tags:
+- web
+- tech
+- notes
+- javascript
 categories: tech
 ---
 

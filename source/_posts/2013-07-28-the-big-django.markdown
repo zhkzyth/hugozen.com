@@ -3,7 +3,12 @@ layout: post
 title: "The big django"
 date: 2013-07-28 17:25
 comments: true
-tags: django python tech reading notes
+tags:
+- django
+- python
+- tech
+- reading
+- notes
 categories: tech
 ---
 

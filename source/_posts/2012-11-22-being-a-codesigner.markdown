@@ -3,7 +3,10 @@ layout: post
 title: "being a codesinger"
 date: 2012-11-22 00:12
 comments: true
-tags: product life code
+tags:
+- product
+- life
+- code
 categories: product life
 ---
 

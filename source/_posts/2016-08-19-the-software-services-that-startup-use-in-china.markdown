@@ -3,7 +3,11 @@ layout: post
 title: "the software services that startup use in china"
 date: 2016-08-19 19:36:41 +0800
 comments: true
-tags: notes aliyun startup tech
+tags:
+- notes
+- aliyun
+- startup
+- tech
 categories: tech
 ---
 

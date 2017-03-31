@@ -2,7 +2,11 @@
 layout: post
 title: "[GM]豆瓣图书插件"
 date: 2011-02-18 21:55:26 +08:00
-tags: college douban code plugin
+tags:
+- college
+- douban
+- code
+- plugin
 college: tech life
 ---
 

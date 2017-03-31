@@ -3,7 +3,9 @@ layout: post
 title: "the methodology of startup"
 date: 2016-08-18 23:00:34 +0800
 comments: true
-tags: reading-notes startup
+tags:
+- reading-notes
+- startup
 categories: tech life
 ---
 

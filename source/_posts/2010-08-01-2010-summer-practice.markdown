@@ -3,7 +3,10 @@ layout: post
 title: "2010 summer practice"
 date: 2010-08-01 07:26:20 +08:00
 publishing: false
-tags: team life college
+tags:
+- team
+- life
+- college
 categories: life
 ---
 

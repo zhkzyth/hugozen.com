@@ -3,7 +3,10 @@ layout: post
 title: "good practice for storing time related objs in mysql with python"
 date: 2016-08-14 12:45:18 +0800
 comments: true
-tags: scrapy twisted mysql
+tags:
+- scrapy
+- twisted
+- mysql
 categories: tech
 ---
 

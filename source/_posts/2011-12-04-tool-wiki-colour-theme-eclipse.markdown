@@ -2,7 +2,10 @@
 layout: post
 post: "[Tool wiki]怎么样在Eclipse下安装颜色主题"
 date: 2011-12-04 13:42:46 +08:00
-tags: tools tips code
+tags:
+- tools
+- tips
+- code
 categories: tech
 ---
 

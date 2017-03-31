@@ -2,7 +2,10 @@
 layout: post
 title: "此刻，你又在哪里平凡"
 date: 2010-10-30 19:28:16 +08:00
-tags: team college life
+tags:
+- team
+- college
+- life
 categories: life
 ---
 

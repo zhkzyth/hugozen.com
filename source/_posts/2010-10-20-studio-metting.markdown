@@ -2,7 +2,9 @@
 layout: post
 title: "工作室的一些事"
 date: 2010-10-20 17:50:18 +08:00
-tags: team college
+tags:
+- team
+- college
 categories: life
 ---
 

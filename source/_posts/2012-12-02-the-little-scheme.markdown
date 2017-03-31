@@ -4,7 +4,11 @@ title: "the little scheme"
 date: 2012-12-02 15:24
 comments: true
 published: true
-tags: reading notes lisp scheme
+tags:
+- reading
+- notes
+- lisp
+- scheme
 categories: tech
 ---
 

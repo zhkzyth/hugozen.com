@@ -3,7 +3,10 @@ layout: post
 title: "rabbitmq reading note"
 date: 2016-08-17 13:43:35 +0800
 comments: true
-tags: rabbitmq note tech
+tags:
+- rabbitmq
+- note
+- tech
 categories: tech
 ---
 

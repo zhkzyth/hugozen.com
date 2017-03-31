@@ -2,7 +2,9 @@
 layout: post
 title: "豆瓣系列专题[一]"
 date: 2011-04-05 20:06:26 +08:00
-tags: douban product
+tags:
+- douban
+- product
 categories: product
 ---
 

@@ -3,7 +3,10 @@ layout: post
 title: "the 36 rules for startup"
 date: 2016-08-18 23:48:18 +0800
 comments: true
-tags: life startup tech
+tags:
+- life
+- startup
+- tech
 categories: tech life
 ---
 

@@ -3,7 +3,10 @@ layout: post
 title: "码农（第13期）-- 图灵社区"
 date: 2016-08-18 00:00:40 +0800
 comments: true
-tags: notes tech life
+tags:
+- notes
+- tech
+- life
 categories: tech life
 ---
 

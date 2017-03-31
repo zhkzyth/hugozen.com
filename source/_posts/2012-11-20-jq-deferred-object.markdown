@@ -2,7 +2,11 @@
 layout: post
 title: "jq-Deferred-Object"
 date: 2012-11-20 23:19
-tags: code js jq team
+tags:
+- code
+- js
+- jq
+- team
 categories: tech
 ---
 

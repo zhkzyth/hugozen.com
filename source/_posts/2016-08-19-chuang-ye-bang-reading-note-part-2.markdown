@@ -3,7 +3,9 @@ layout: post
 title: "chuang ye bang reading note part 2"
 date: 2016-08-19 20:06:57 +0800
 comments: true
-tags: chuangyebang reading-notes
+tags:
+- chuangyebang
+- reading-notes
 categories: life
 ---
 

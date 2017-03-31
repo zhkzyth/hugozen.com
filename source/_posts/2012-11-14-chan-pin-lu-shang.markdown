@@ -4,7 +4,9 @@ title: "产品路上"
 date: 2011-04-25 18:40:41 +08:00
 comments: true
 published: false
-tags: product life
+tags:
+- product
+- life
 categories: product life
 ---
 

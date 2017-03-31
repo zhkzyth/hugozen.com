@@ -2,7 +2,11 @@
 layout: post
 title: "LAMP learning"
 date: 2010-09-22 04:49:54 +08:00
-tags: lamp php ps design
+tags:
+- lamp
+- php
+- ps
+- design
 categories: design
 ---
 

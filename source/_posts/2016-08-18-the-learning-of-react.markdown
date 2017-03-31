@@ -3,7 +3,11 @@ layout: post
 title: "the learning of react"
 date: 2016-08-18 23:14:07 +0800
 comments: true
-tags: react redux reading-notes learn
+tags:
+- react
+- redux
+- reading-notes
+- learn
 categories: tech
 ---
 
