@@ -3,7 +3,8 @@ layout: post
 title: "《文案训练手册》阅读笔记"
 date: 2016-08-19 19:29:56 +0800
 comments: true
-categories: notes writing life
+tags: notes writing life
+categories: life
 ---
 ## 背景
 [《文案训练手册》][1]是一本教导写作的书籍，偏向实用性，很早之前看的一本书。

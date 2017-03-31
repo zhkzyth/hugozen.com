@@ -3,8 +3,10 @@ layout: post
 title: "the reading note of new angle for 30's"
 date: 2016-08-18 23:31:47 +0800
 comments: true
-categories: life reading-note notes
+tags: life reading-note notes
+categories: life
 ---
+
 ## 背景
 书的名字，叫《30岁后，为梦想寻找现实的出口》，英文名我实在不知道怎么翻译，就那么着先吧。囧...书的作者是，李梓新，值得关注的一个人。
 

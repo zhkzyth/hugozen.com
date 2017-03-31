@@ -3,7 +3,8 @@ layout: post
 title: "StackContext in Tornado"
 date: 2014-03-12 01:10
 comments: true
-categories: tornado python sourcecode
+tags: tornado python sourcecode
+categories: tech
 ---
 
 ## 背景

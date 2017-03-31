@@ -2,8 +2,10 @@
 layout: post
 title: "时间管理"
 date: 2010-08-20 04:58:53 +08:00
-categories: time self-manage
+tags: time self-manage
+categories: life
 ---
+
 我总是忍不住去看自己的各种社区应用，QQ、sina、网易、推特、校内、人人、Q-zone，还有我的豆瓣广播。如此零碎的信息，充斥着我每天的网络生 活。如果你也拥有这些新奇的玩意，管理起来，很累，不是么？哦，对了，还有大量的blog、各种IT资讯的网站、有趣的杂志、教程、技术分享......
 还在用收藏和标签?
 

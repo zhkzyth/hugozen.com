@@ -3,8 +3,10 @@ layout: post
 title: "the methodology of startup"
 date: 2016-08-18 23:00:34 +0800
 comments: true
-categories: reading-notes startup
+tags: reading-notes startup
+categories: tech life
 ---
+
 ## 市场调研的框架
 创业者要做的事儿，说简单也简单，说不容易也不容易：
 

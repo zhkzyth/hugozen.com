@@ -3,8 +3,10 @@ layout: post
 title: "note of optimization for zdlive web sites"
 date: 2016-08-18 22:23:13 +0800
 comments: true
-categories: web tech notes javascript
+tags: web tech notes javascript
+categories: tech
 ---
+
 ## 前言
 zdlive是我大四实习的一家公司，当时在那边负责前端模块，写了蛮多的笔记，现在整理出来~=）
 

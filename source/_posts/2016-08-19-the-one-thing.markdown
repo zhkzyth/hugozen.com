@@ -3,8 +3,10 @@ layout: post
 title: "the one thing"
 date: 2016-08-19 19:26:26 +0800
 comments: true
-categories: reading reading-notes
+tags: reading reading-notes
+categories: life
 ---
+
 ## 背景
 看到书单君的推荐，就拿过来看看
 

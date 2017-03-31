@@ -3,7 +3,8 @@ layout: post
 title: "The big django"
 date: 2013-07-28 17:25
 comments: true
-categories: django python tech reading notes
+tags: django python tech reading notes
+categories: tech
 ---
 
 我总是有种冲动要把一个框架给撸一遍才happy，但我发现这样把自己累得半死，还吸收不良......

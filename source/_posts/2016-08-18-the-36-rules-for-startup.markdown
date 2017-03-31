@@ -3,8 +3,10 @@ layout: post
 title: "the 36 rules for startup"
 date: 2016-08-18 23:48:18 +0800
 comments: true
-categories: life startup tech
+tags: life startup tech
+categories: tech life
 ---
+
 ## 背景
 孙陶然老师写的创业指导，《创业36条军规》。有幸拜读，记下一些警醒的话语。
 

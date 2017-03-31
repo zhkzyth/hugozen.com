@@ -3,8 +3,10 @@ layout: post
 title: "gentoo related stuff"
 date: 2016-08-18 22:51:06 +0800
 comments: true
-categories: gentoo linux learn
+tags: gentoo linux learn
+categories: tech
 ---
+
 ### 背景
 接触编程的那段启蒙的日子，有玩过gentoo，一个给你材料让你自由发挥的小玩物，不过后来折腾不起，逐渐就放掉了。
 笔记里面还有之前整理的一些资料，都放出来吧~

@@ -2,8 +2,10 @@
 layout: post
 title: "工作室的一些事"
 date: 2010-10-20 17:50:18 +08:00
-categories: team college
+tags: team college
+categories: life
 ---
+
 工大在线，我们共同的心血，我们的孩子。
 
 解决了技术的难题，随之而来的推广并没有我们想象中的那么容易。在栏目的策划上，一开始并没有做太多的分析，就这么匆匆的开始code，先天性的不良。

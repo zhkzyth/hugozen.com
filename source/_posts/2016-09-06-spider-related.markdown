@@ -3,8 +3,10 @@ layout: post
 title: "spider related"
 date: 2016-09-06 18:06:27 +0800
 comments: true
-categories: python spider notes
+tags: python spider notes
+categories: tech
 ---
+
 ## 怎么部署
 - scrapyd + supervisord + crontab + redis
 

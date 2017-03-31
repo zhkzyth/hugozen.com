@@ -3,7 +3,8 @@ layout: post
 title: "note of learning skills"
 date: 2016-09-06 22:10:31 +0800
 comments: true
-categories: reading-note learning skill
+tags: reading-note learning skill
+categories: life
 ---
 
 ## 关于学习的摘抄

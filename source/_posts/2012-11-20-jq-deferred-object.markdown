@@ -2,9 +2,10 @@
 layout: post
 title: "jq-Deferred-Object"
 date: 2012-11-20 23:19
-comments: true
-categories: code js jq team
+tags: code js jq team
+categories: tech
 ---
+
 周末在team内做的一个分享，讲的是jq的Deferred Object。
 
 先上ppt，有很多的想法，但不是很成熟。可能需要去玩玩js的游戏开发，才能对这些概念有进一步的认识。

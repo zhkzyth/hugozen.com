@@ -3,7 +3,8 @@ layout: post
 title: "write your asm code"
 date: 2013-08-11 21:49
 comments: true
-categories: system reading notes os asm code
+tags: system reading notes os asm code
+categories: tech
 ---
 
 最近对“底层”着迷了起来，找了一本[深入理解计算机系统][0]和王爽的[汇编语言][1]，开始啃了起来。

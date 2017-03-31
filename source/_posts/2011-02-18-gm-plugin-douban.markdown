@@ -2,8 +2,10 @@
 layout: post
 title: "[GM]豆瓣图书插件"
 date: 2011-02-18 21:55:26 +08:00
-college: college douban code plugin
+tags: college douban code plugin
+college: tech life
 ---
+
 *Update: 本插件已经失效了，短期内不会再更新了......亲，不要用这个来学习前端或者有关后台的知识*
 
 背景

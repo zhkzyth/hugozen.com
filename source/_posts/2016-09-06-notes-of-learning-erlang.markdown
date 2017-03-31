@@ -2,8 +2,10 @@ layout: post
 title: "notes of learning erlang"
 date: 2016-09-06 18:35:38 +0800
 comments: true
-categories: erlang notes tech
+tags: erlang notes tech
+categories: tech
 ---
+
 ## 背景
 之前因为要想实现一个基于[DHT网络的站][3]，就找了一些代码实现，发现一个前辈写的erlang实现，好奇也看了起来，顺便学了下erlang。
 

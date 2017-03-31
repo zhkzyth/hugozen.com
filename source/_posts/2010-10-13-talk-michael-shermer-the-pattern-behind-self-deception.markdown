@@ -2,8 +2,10 @@
 layout: post
 title: "Talk: Michael Shermer: The pattern behind self-deception"
 date: 2010-10-13 13:21:59 +08:00
-categories: ted
+tags: ted
+categories: life
 ---
+
 It's funny to say that we are more likely tending to believe things are connected,especially when we are in dagerous,having the feelings of uncertainty and out of control.
 
 We try to make things in order,and being understood.The example of the hominid explains why the natural selection for propencity for our brain engines is always the false positive.In such situations,obviously it's better to take safe actions in case of being a lunch of the peridator.Those who donot do so are more likely to be killed.Like Michael Shermer said,“You've been taken out of the gene pool"<!--more-->

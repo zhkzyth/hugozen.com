@@ -3,8 +3,10 @@ layout: post
 title: "being a codesinger"
 date: 2012-11-22 00:12
 comments: true
-categories: product life code
+tags: product life code
+categories: product life
 ---
+
 想了很久，好像有那么一刻，我终于明白自己逃离产品经理这个职位的原因了。
 
 整个晚上，我都在看[chengyichao][]的blog，谢谢这个人，我的世界又拓宽了开去。

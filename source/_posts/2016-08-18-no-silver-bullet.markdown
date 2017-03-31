@@ -3,8 +3,10 @@ layout: post
 title: "no silver bullet"
 date: 2016-08-18 10:08:47 +0800
 comments: true
-categories: test software silver-bullet
+tags: test software silver-bullet
+categories: tech
 ---
+
 ### 背景
 研究测试开发相关资料做的一些总结，备用~
 

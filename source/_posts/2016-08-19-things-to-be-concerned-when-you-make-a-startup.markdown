@@ -3,8 +3,10 @@ layout: post
 title: "things to be concerned when you make a startup"
 date: 2016-08-19 19:42:19 +0800
 comments: true
-categories: startup reading-notes
+tags: startup reading-notes
+categories: life
 ---
+
 ## 背景
 这是有关创业的第N本书，知乎出的集合，《创业时，我们在知乎聊什么》。
 

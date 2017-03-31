@@ -2,14 +2,14 @@
 layout: post
 title: "豆瓣系列专题[一]"
 date: 2011-04-05 20:06:26 +08:00
-categories: douban product
+tags: douban product
+categories: product
 ---
+
 背景
 ----
 从大一开始认识豆娘到现在，发现蛮喜欢她的，做了两年多的知识记录，回过头来看，内心满是踏实的感觉。泡了两年，豆娘也是一路风雨兼程。一直想给这么个产品写自己的体验，见证豆娘的美丽和成熟，不过每每下笔，又怕人笑幼稚，好吧，就酱紫，不许笑，难得有机会去写这么一个系列的体验。(如果你对豆瓣不太了解的话，先看看[豆瓣的发展历程][douban_history]，这样对豆瓣会清晰点。我对豆瓣的理解是，她是一个以书、影、音分享为主的知识型社区，以兴趣聚合同好。当然阿北的想法我是无法猜测的......)
 <!--more-->
-
-
 
 <div class="align-center"><iframe id="xmindshare_embedviewer" src="http://xmind.net/share/_embed/zhkzyth/fun-watercress-111111111122222222223333333333444444444450/" frameborder="0" scrolling="no" width="600px" height="300px"></iframe></div>
 

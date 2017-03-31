@@ -3,8 +3,10 @@ layout: post
 title: "why and how in lisp"
 date: 2012-11-22 00:53
 comments: true
-categories: code lisp compiler
+tags: code lisp compiler
+categories: tech
 ---
+
 心血来潮，看起了lisp。起因是我太寂寞了，想找些函数式语言，来打发有强迫症的自己。
 
 当然了，原因不只这么简单，更重要的是，我想去了解函数式语言的起源，或者，写一个[自己的编译器][write a compiler]玩玩也不错.

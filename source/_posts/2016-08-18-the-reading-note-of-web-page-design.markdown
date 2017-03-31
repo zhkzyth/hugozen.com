@@ -3,8 +3,10 @@ layout: post
 title: "the reading note of web page design"
 date: 2016-08-18 23:03:26 +0800
 comments: true
-categories: design web
+tags: design web
+categories: design
 ---
+
 ## 背景
 接触web最开始的时候，是做重构，那个时候便想着一定要学下网页设计，于是就找了下面这本书。
 

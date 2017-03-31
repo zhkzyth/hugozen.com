@@ -3,8 +3,10 @@ layout: post
 title: "collection of good design notes"
 date: 2016-09-06 08:59:30 +0800
 comments: true
-categories: design reading notes
+tags: design reading notes
+categories: design
 ---
+
 ## 背景
 积累一些优秀的设计，包括但不限于交互、产品，视觉单独放开。
 

@@ -2,8 +2,10 @@
 layout: post
 title: "Mysql Wiki Set Names Utf8"
 date: 2011-12-11 18:40:41 +08:00
-categories: mysql php code tips
+tags: mysql php code tips
+categories: tech
 ---
+
 背景
 ----
 最近在看opencart的代码，看到mysql类的时候，不太理解`query="set names utf8"`具体的意义是什么，那时也没太注意。后来自己写了个简单的数据类从mysql抽取数据出来的时候，显示在页面的都是???号，也就是大家常说的乱码了。

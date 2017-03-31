@@ -3,8 +3,10 @@ layout: post
 title: "jq-sourceCode"
 date: 2012-11-20 23:30
 comments: true
-categories: js jq code reading notes
+tags: js jq code reading notes
+categories: tech
 ---
+
 我想没什么比阅读john Resig的JQ库更让人觉得亲切的了。
 
 从一开始接触js，到做一个小小的demo，最后做一些面向单页app的应用，jq库这个熟悉而又陌生的脚手架一直陪伴着我们。

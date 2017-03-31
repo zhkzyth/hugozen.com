@@ -3,7 +3,8 @@ layout: post
 title: "note of mqtt protocol"
 date: 2016-09-06 22:17:43 +0800
 comments: true
-categories: mqtt reading-note
+tags: mqtt reading-note
+categories: tech
 ---
 
 ## blog

@@ -3,8 +3,10 @@ layout: post
 title: "note of great blog"
 date: 2016-09-06 22:24:36 +0800
 comments: true
-categories: blog reading-note life
+tags: blog reading-note life
+categories: life
 ---
+
 ## 连续性的做一些事情
 Google SEO 工程师 Mutt Cutts 提出过一种很好的实践方法（TED2011）：Try something new for 30 days。偶尔的一次尝试只是为生活平添了几分色彩，但是如果一直做下去，30 days × N 后，你的生活就会发生改变。
 

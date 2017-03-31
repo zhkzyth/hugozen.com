@@ -2,8 +2,10 @@
 layout: post
 title: "此刻，你又在哪里平凡"
 date: 2010-10-30 19:28:16 +08:00
-categories: team college life
+tags: team college life
+categories: life
 ---
+
 10月30日下午，我就这么点开了《老男孩》，听着筷子的歌，伤感不由自主地涌上来，“昨天的你，此刻又在哪里平凡”......
 
 10月31日凌晨3:28分，失眠。

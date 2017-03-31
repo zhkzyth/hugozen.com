@@ -3,8 +3,10 @@ layout: post
 title: "reading note of the totor library for python"
 date: 2016-09-06 09:05:06 +0800
 comments: true
-categories: python reading note totor library
+tags: python reading note totor library
+categories: tech
 ---
+
 ## 背景
 在ziz的时候，cto的技术选型不合理，对使用技术缺乏必要的了解，采用了旧和大而笨重的中间件。因为`tcelery`的核心开发者不再维护代码，所以需要重新选择更加合适的技术方案。
 

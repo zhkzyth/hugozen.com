@@ -3,8 +3,10 @@ layout: post
 title: "reading note of mosquitto"
 date: 2016-09-06 21:57:22 +0800
 comments: true
-categories: mosquitto reading note tech
+tags: mosquitto reading note tech
+categories: tech
 ---
+
 ## 背景
 之前在游戏公司的时候，需要自己搭建一套推送服务，顺道研究了下一些开源实现。mosquito的代码库，代码量少，而且也写得比较好懂，对推送协议的实现也是比较ok的，所以就撸了一番。虽然后来没用上，但是还是把当时的一些想法记录下来。
 

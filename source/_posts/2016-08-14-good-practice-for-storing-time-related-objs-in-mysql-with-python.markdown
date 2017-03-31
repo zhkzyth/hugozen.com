@@ -3,8 +3,10 @@ layout: post
 title: "good practice for storing time related objs in mysql with python"
 date: 2016-08-14 12:45:18 +0800
 comments: true
-categories: scrapy twisted mysql
+tags: scrapy twisted mysql
+categories: tech
 ---
+
 I recently wrote a spider for jobs with the [scrapy][1] framework, and stored all my items in mysql.
 
 But here the problem comes. If you try to use timestamp type in mysql, several traps may be concerned.

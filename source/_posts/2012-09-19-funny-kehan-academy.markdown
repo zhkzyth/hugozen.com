@@ -2,8 +2,10 @@
 layout: post
 title: "有趣的可汗学院"
 date: 2012-09-19 18:02:11 +08:00
-categories: tips learning algorithm code
+tags: tips learning algorithm code
+categories: tech
 ---
+
 最近一直在看可汗学院和其他国外的几个教学视频网站，我是在教育大发现社区找到的....
 
 比较有趣的是可汗学院的教学方式，除了单纯的视频以外，还结合了“immediate feedback”这样的设计原则，你可以在看完视频后，就在网站上面写代码，或者，在测试面板上面看到你写的代码的结果...

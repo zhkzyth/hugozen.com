@@ -3,7 +3,8 @@ layout: post
 title: "webpy-cherryServer-analytics"
 date: 2013-07-24 08:59
 comments: true
-categories: webpy python tips tech
+tags: webpy python tips tech
+categories: tech
 ---
 
 Introdcution

@@ -2,8 +2,10 @@
 layout: post
 title: "写在即将离开工作室的时候"
 date: 2010-12-16 17:20:46 +08:00
-categories: team college life
+tags: team college life
+categories: life
 ---
+
 张望搬走了，或许就像肥苏说的那样，当你习惯了某个人的存在的时候，他忽然的离去会让你觉得很不适应，我曾想去挽留他，但我没有…
 
 超文那天早上打电话给我，我还在睡梦中，他说他要搬走了，心里凉了半截，深感无力，我不知道该说些什么好…

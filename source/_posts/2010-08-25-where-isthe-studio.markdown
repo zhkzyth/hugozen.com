@@ -2,8 +2,10 @@
 layout: post
 title: "说好的工作室呢"
 date: 2010-08-25 07:32:39 +08:00
-categories: team life college
+tags: team life college
+categories: life
 ---
+
 先在这里跟芬姐说声对不起，这几天因为工作室的事情，搞到自己很沮丧，你打电话给我我都没接......
 
 昨天跟启越跑了趟张书记那边，应该快有结果了。据说是拿4楼的舞狮团的练习室给我们，到时候就可以安空调了。

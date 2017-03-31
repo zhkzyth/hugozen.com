@@ -3,8 +3,10 @@ layout: post
 title: "the learning of react"
 date: 2016-08-18 23:14:07 +0800
 comments: true
-categories: react redux reading-notes learn
+tags: react redux reading-notes learn
+categories: tech
 ---
+
 ## 入门
 因为项目的需要，看了不少react的资料，整理出来。
 

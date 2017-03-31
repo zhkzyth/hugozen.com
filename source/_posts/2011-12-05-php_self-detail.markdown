@@ -2,8 +2,10 @@
 layout: post
 title: "[translate]php_self vs path_info vs script_name vs request_uri"
 date: 2011-12-05 18:39:39 +08:00
-categories: php code tips
+tags: php code tips
+categories: tech
 ---
+
 背景
 ----
 php的几个$_SERVER变量都有自己的应用场景的，但manual那里写的太抽象了，最后在stackoverflow那里看到，通过浅显的例子，生动的比较了PHP_SELF、PATH_INFO、SCRIPT_NAME和REQUEST_URI的不同之处，简单翻译在下面，算是mark下来。

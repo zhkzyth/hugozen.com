@@ -3,8 +3,10 @@ layout: post
 title: "how to run scrapy in distribution mode"
 date: 2016-08-14 17:08:10 +0800
 comments: true
-categories: scrapy python redis cached
+tags: scrapy python redis cached
+categories: tech
 ---
+
 From previous post, i wrote things that i learned from [Scrapy][1] architecture.
 
 At this one, I try to explain how to run Scrapy in distribution mode.Or even better, try to write your own spiders code to support that.

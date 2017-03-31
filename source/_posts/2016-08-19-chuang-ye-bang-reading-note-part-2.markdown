@@ -3,7 +3,8 @@ layout: post
 title: "chuang ye bang reading note part 2"
 date: 2016-08-19 20:06:57 +0800
 comments: true
-categories: chuangyebang reading-notes
+tags: chuangyebang reading-notes
+categories: life
 ---
 
 ## 美丽说徐易容：我们要做垂直品类杀手

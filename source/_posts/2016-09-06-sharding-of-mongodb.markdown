@@ -3,8 +3,10 @@ layout: post
 title: "sharding of mongodb"
 date: 2016-09-06 18:21:09 +0800
 comments: true
-categories: mongodb sharding notes
+tags: mongodb sharding notes
+categories: tech
 ---
+
 ## blog教程
 - [Mongodb集群配置(sharding with replica set)][1]
 - [MongoDB副本集学习][2]

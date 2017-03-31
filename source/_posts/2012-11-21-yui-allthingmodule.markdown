@@ -3,8 +3,10 @@ layout: post
 title: "YUI-allThingModule"
 date: 2012-11-21 00:46
 comments: true
-categories:  jq code js yui
+tags:  jq code js yui
+categories: tech
 ---
+
 not just about [how to translate YUI modules to use in your pro][] or [aralejs][].
 
 it's about how to [move a module from one place to another][],without any,yes any, affect.

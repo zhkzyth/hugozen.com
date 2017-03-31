@@ -3,8 +3,10 @@ layout: post
 title: "things i learn from scrapy"
 date: 2016-08-14 16:37:36 +0800
 comments: true
-categories: scrapy notes python
+tags: scrapy notes python
+categories: tech
 ---
+
 Early this month, i used [scrapy][2] to write spiders.And I won't say that i use almost 2-3 hours to read the docs again, so i can get familiar with it for how it working.
 
 But i just had written same code one year ago.

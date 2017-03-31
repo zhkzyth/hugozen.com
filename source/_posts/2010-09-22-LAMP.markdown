@@ -2,8 +2,10 @@
 layout: post
 title: "LAMP learning"
 date: 2010-09-22 04:49:54 +08:00
-categories: lamp php ps design
+tags: lamp php ps design
+categories: design
 ---
+
 最近一直在折腾LAMP的东西，不过进度实在太慢了.....
 
 先贴个雏形吧，应该还会有很多需要修改的地方...我得加入自己的元素才行...

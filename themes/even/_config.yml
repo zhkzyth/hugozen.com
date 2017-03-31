@@ -19,7 +19,7 @@ rss:
 menu:
   Home: /
   Archives: /archives/
-  # Tags: /tags
+  Tags: /tags
   Categories: /categories
   About: /about
 

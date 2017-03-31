@@ -3,8 +3,10 @@ layout: post
 title: "how to do product analysis"
 date: 2016-08-18 23:20:12 +0800
 comments: true
-categories: product-analysis product skill
+tags: product-analysis product skill
+categories: product
 ---
+
 ## 基础框架（待修改）
 - 背景
 - 竞品对象

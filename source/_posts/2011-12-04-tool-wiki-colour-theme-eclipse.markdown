@@ -2,8 +2,10 @@
 layout: post
 post: "[Tool wiki]怎么样在Eclipse下安装颜色主题"
 date: 2011-12-04 13:42:46 +08:00
-categories: tools tips code
+tags: tools tips code
+categories: tech
 ---
+
 背景
 ----
 不知道大家在平时的开发过程中使用的是什么类型的工具的呢？而我就比较喜欢用Eclipse了，因为它开源，而且支持非常多的开发语言，外加非常优秀的插件，插剥方便，整个开发工具看起来是非常轻量的。

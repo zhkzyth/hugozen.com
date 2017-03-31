@@ -2,8 +2,11 @@
 layout: post
 title: "2010 summer practice"
 date: 2010-08-01 07:26:20 +08:00
-categories: team life college
+publishing: false
+tags: team life college
+categories: life
 ---
+
 ![实践成员全体照][photo1]
 
 7月26日，短暂的15天暑期实践就这样结束了......

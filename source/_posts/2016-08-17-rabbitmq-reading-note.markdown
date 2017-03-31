@@ -3,8 +3,10 @@ layout: post
 title: "rabbitmq reading note"
 date: 2016-08-17 13:43:35 +0800
 comments: true
-categories: rabbitmq note tech
+tags: rabbitmq note tech
+categories: tech
 ---
+
 ### 背景
 之前在game workshop的时候，有做这方面的技术调研，了解了下这方面的技术细节。不过阅读的内容都存在Evernote里面，趁着翻阅的时候，把资料再掏出来。
 
@@ -75,7 +77,7 @@ setcookie要配对，rabbitmqctl也要跟着一样，不然一直报“node down
 [7]: http://www.cnblogs.com/flat_peach/archive/2013/04/07/3004008.html
 [8]: http://www.cnblogs.com/me-sa/archive/2012/11/12/2766700.html
 [9]: http://www.cnblogs.com/me-sa/archive/2012/11/11/2765539.html
-[10]: http://www.rabbitmq.com/ha.html  
+[10]: http://www.rabbitmq.com/ha.html
 [11]: https://www.rabbitmq.com/clustering.html#auto-config
 [12]: http://floss.zoomquiet.io/data/20110714104018/index.html
 [13]: http://www.rabbitmq.com/blog/2012/04/17/rabbitmq-performance-measurements-part-1/

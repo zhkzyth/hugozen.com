@@ -3,8 +3,10 @@ layout: post
 title: "my first udacity cource"
 date: 2012-11-22 01:14
 comments: true
-categories: udacity learning python search
+tags: udacity learning python search
+categories: tech
 ---
+
 so it's my second article written in english~greate!!!
 
 i recently take an online course on udacity,use python to write a search engine~

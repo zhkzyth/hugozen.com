@@ -3,8 +3,10 @@ layout: post
 title: "《创业邦》 读书笔记"
 date: 2016-08-19 20:03:19 +0800
 comments: true
-categories: chuangyebang reading-notes
+tags: chuangyebang reading-notes
+categories: life
 ---
+
 ## 北京的热度
 - 帝都北京聚集了全国90%的公益组织，而这些公益组织正是厚普科技的重要客户，再综合考虑资本和媒体方面因素，2013年底，他们在北京成立了北京厚普聚益科技有限公司，并全资收购了郑州的公司。目前郑州方面负责研发和运维，北京总部负责市场和运营。
 - 目前3W集团化的生态链也浮出了水面——咖啡馆、传媒公司、拉勾招聘网和孵化器NextBig，而且每个部分都实行独立核算。
