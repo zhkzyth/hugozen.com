@@ -7,7 +7,9 @@ tags:
 - life
 - startup
 - tech
-categories: tech life
+categories:
+- tech
+- life
 ---
 
 ## 背景

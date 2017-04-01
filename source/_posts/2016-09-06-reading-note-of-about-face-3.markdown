@@ -3,7 +3,10 @@ layout: post
 title: "reading note of about face 3"
 date: 2016-09-06 22:04:28 +0800
 comments: true
-tags: interaction-design design reading-note
+tags:
+- interaction-design
+- design
+- reading-note
 categories: design
 ---
 

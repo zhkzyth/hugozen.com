@@ -3,7 +3,11 @@ layout: post
 title: "reading note of mosquitto"
 date: 2016-09-06 21:57:22 +0800
 comments: true
-tags: mosquitto reading note tech
+tags:
+- mosquitto
+- reading
+- note
+- tech
 categories: tech
 ---
 

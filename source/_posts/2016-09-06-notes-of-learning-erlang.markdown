@@ -2,7 +2,10 @@ layout: post
 title: "notes of learning erlang"
 date: 2016-09-06 18:35:38 +0800
 comments: true
-tags: erlang notes tech
+tags:
+- erlang
+- notes
+- tech
 categories: tech
 ---
 

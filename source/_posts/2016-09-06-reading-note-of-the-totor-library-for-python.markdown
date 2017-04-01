@@ -3,7 +3,12 @@ layout: post
 title: "reading note of the totor library for python"
 date: 2016-09-06 09:05:06 +0800
 comments: true
-tags: python reading note totor library
+tags:
+- python
+- reading
+- note
+- totor
+- library
 categories: tech
 ---
 

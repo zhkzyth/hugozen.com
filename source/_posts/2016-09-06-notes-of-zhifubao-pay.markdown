@@ -3,7 +3,10 @@ layout: post
 title: "notes of zhifubao pay"
 date: 2016-09-06 18:11:56 +0800
 comments: true
-tags: zhifubao pay notes
+tags:
+- zhifubao
+- pay
+- notes
 categories: tech
 ---
 

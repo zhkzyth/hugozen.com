@@ -1,7 +1,9 @@
 ---
 title: 《解密无印良品》读书笔记
 date: 2017-03-07 13:05:02
-tags: muji reading-note
+tags:
+- muji
+- reading-note
 categories: life
 ---
 

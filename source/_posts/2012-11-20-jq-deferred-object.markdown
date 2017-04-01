@@ -7,7 +7,8 @@ tags:
 - js
 - jq
 - team
-categories: tech
+categories:
+- tech
 ---
 
 周末在team内做的一个分享，讲的是jq的Deferred Object。

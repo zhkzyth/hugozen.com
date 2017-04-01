@@ -1,7 +1,12 @@
 ---
 title: the-thought-of-yii2-rbac
 date: 2017-03-13 13:40:33
-tags: rbac yii2 notes
+tags:
+- rbac
+- yii2
+- notes
+categories:
+- tech
 ---
 
 # YII2的rbac思路

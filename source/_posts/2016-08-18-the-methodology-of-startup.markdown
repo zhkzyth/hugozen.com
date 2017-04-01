@@ -6,7 +6,9 @@ comments: true
 tags:
 - reading-notes
 - startup
-categories: tech life
+categories:
+- tech
+- life
 ---
 
 ## 市场调研的框架

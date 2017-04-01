@@ -7,7 +7,9 @@ tags:
 - notes
 - tech
 - life
-categories: tech life
+categories:
+- tech
+- life
 ---
 
 ## 背景

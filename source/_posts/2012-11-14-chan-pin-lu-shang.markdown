@@ -7,7 +7,9 @@ published: false
 tags:
 - product
 - life
-categories: product life
+categories:
+- product
+- life
 ---
 
 第三次看[翠环师姐的文章][article]，前两次看，觉得看得没感觉，但这次看，忽然觉得她说的都是实话，说到心里去。 翠环师姐说到她实习有几点很关键的地方，如今看来确实是这样。一． 明白你实习的意义。二． 善于向同事学习。三． 学会主动承担。

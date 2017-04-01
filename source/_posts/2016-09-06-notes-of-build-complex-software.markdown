@@ -3,9 +3,13 @@ layout: post
 title: "notes of building complex software"
 date: 2016-09-06 01:23:08 +0800
 comments: true
-tags: tech reading software
+tags:
+- tech
+- reading
+- software
 categories: tech
 ---
+
 ## 背景
 这是我一直收藏在evernote里面的，架构设计方面的合集。后面会不定期更新一些比较好的设计文章，然后我也在想有没办法像[湾区日报][14]那样，做得比较自动化，那就太棒了。
 

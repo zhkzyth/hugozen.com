@@ -3,7 +3,10 @@ layout: post
 title: "note of learning skills"
 date: 2016-09-06 22:10:31 +0800
 comments: true
-tags: reading-note learning skill
+tags:
+- reading-note
+- learning
+- skill
 categories: life
 ---
 

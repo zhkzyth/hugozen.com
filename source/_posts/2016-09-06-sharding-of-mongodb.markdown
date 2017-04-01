@@ -3,7 +3,10 @@ layout: post
 title: "sharding of mongodb"
 date: 2016-09-06 18:21:09 +0800
 comments: true
-tags: mongodb sharding notes
+tags:
+- mongodb
+- sharding
+- notes
 categories: tech
 ---
 

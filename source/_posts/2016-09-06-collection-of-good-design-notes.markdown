@@ -3,7 +3,10 @@ layout: post
 title: "collection of good design notes"
 date: 2016-09-06 08:59:30 +0800
 comments: true
-tags: design reading notes
+tags:
+- design
+- reading
+- notes
 categories: design
 ---
 

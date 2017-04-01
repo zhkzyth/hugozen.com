@@ -3,7 +3,10 @@ layout: post
 title: "note of great blog"
 date: 2016-09-06 22:24:36 +0800
 comments: true
-tags: blog reading-note life
+tags:
+- blog
+- reading-note
+- life
 categories: life
 ---
 

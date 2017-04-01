@@ -7,7 +7,9 @@ tags:
 - product
 - life
 - code
-categories: product life
+categories:
+- product
+- life
 ---
 
 想了很久，好像有那么一刻，我终于明白自己逃离产品经理这个职位的原因了。
