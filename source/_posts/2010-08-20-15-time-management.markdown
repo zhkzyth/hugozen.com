@@ -2,7 +2,9 @@
 layout: post
 title: "时间管理"
 date: 2010-08-20 04:58:53 +08:00
-tags: time self-manage
+tags:
+- time
+- self-manage
 categories: life
 ---
 

@@ -3,7 +3,9 @@ layout: post
 title: "《创业邦》 读书笔记"
 date: 2016-08-19 20:03:19 +0800
 comments: true
-tags: chuangyebang reading-notes
+tags:
+- chuangyebang
+- reading-notes
 categories: life
 ---
 

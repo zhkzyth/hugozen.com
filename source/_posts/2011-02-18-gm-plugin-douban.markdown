@@ -7,7 +7,9 @@ tags:
 - douban
 - code
 - plugin
-college: tech life
+college:
+- tech
+- life
 ---
 
 *Update: 本插件已经失效了，短期内不会再更新了......亲，不要用这个来学习前端或者有关后台的知识*
