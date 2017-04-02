@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "a dht crawler in python"
+title: "How to write a dht crawler in python"
 date: 2014-01-06 15:36
 comments: true
 tags: ['dht', 'net', 'bt', 'python']
