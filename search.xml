@@ -2670,7 +2670,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[a dht crawler in python]]></title>
+      <title><![CDATA[How to write a dht crawler in python]]></title>
       <url>http://hugozen.com/2014/01/06/2014-01-06-a-dht-crawler-in-python/</url>
       <content type="html"><![CDATA[<p>I recently write <a href="https://github.com/zhkzyth/BT-Share" target="_blank" rel="external">a dht crawler</a> in python.</p>
 <p>What a <a href="http://www.bittorrent.org/beps/bep_0005.html" target="_blank" rel="external">dht</a>?well,you can think of it as a protocol as we treated the bt.<br>And i am not gona tell you that i can’t understand it before i read <a href="https://github.com/gsko/mdht" target="_blank" rel="external">the source code in python</a> that implement it.<br>LOL…It is the truth, the paper sometimes is just hard to read.</p>
@@ -2775,9 +2775,9 @@
             
             <tag> python </tag>
             
-            <tag> tech </tag>
-            
             <tag> django </tag>
+            
+            <tag> tech </tag>
             
         </tags>
         
@@ -2871,9 +2871,9 @@
             
             <tag> python </tag>
             
-            <tag> webpy </tag>
-            
             <tag> tech </tag>
+            
+            <tag> webpy </tag>
             
         </tags>
         
@@ -3222,7 +3222,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Mysql Wiki Set Names Utf8]]></title>
+      <title><![CDATA[mysql set names utf8]]></title>
       <url>http://hugozen.com/2011/12/11/2011-12-11-mysql-wiki-set-names-utf8/</url>
       <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>最近在看opencart的代码，看到mysql类的时候，不太理解<code>query=&quot;set names utf8&quot;</code>具体的意义是什么，那时也没太注意。后来自己写了个简单的数据类从mysql抽取数据出来的时候，显示在页面的都是???号，也就是大家常说的乱码了。</p>
 <p>想起之前的set names操作，于是就在类的__construct方法里面，加入了<code>mysql_query(“SET NAMES &#39;utf8&#39;”,$this-&gt;connection);</code>，然后一切都好了。</p>
